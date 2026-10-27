@@ -1,0 +1,13 @@
+rows with an allele longer than 1 letter: 385
+unique variants among them: 381
+                                    SNP                    A1   A2                                        trait
+33                          rs376022098                     A   AC  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+69                          rs200439949                    TG    T  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+90                          rs111517155                     C   CT  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+97                          rs780729970       CACAGCAGAGTCTAT    C  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+113                          rs36112451                     T  TAA  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+129  11:67041966_CTTTTTTTTTTTTTTTTTTT_C  CTTTTTTTTTTTTTTTTTTT    C  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+146                         rs543225984                     A   AT  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+151              13:47247881_ATTTTTTT_A              ATTTTTTT    A  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+161                15:51529349_GAAACA_G                GAAACA    G  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+164                    15:63798569_GA_G                    GA    G  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT

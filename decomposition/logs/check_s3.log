@@ -1,0 +1,25 @@
+rows: 3230
+unique SNPs: 3160
+traits: 15
+missing values: 0
+all rows have PIP_borzoi - PIP_base > 0.25: True
+all A1 and A2 single letters: False
+unique SNPs after filter (PIP_susie < 0.1 and PIP_base < 0.1): 1158
+
+rows per trait:
+trait
+body_HEIGHTz                                   756
+bmd_HEEL_TSCOREz                               334
+blood_MEAN_PLATELET_VOL                        301
+blood_MONOCYTE_COUNT                           285
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT    225
+blood_MEAN_CORPUSCULAR_HEMOGLOBIN              217
+lung_FEV1FVCzSMOKE                             192
+body_BALDING1                                  192
+bp_DIASTOLICadjMEDz                            149
+biochemistry_Cholesterol                       132
+pigment_HAIR                                   108
+repro_MENARCHE_AGE                             103
+lung_FVCzSMOKE                                  95
+disease_ALLERGY_ECZEMA_DIAGNOSED                90
+other_MORNINGPERSON                             51
