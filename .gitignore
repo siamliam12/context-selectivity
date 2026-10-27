@@ -1,0 +1,63 @@
+# .gitignore for the research/main folder
+# Rule: code, notes, small tables, figures and checksums go to GitHub.
+# Big data files stay on your computer. Their checksums go to GitHub instead.
+
+# ---------- Big data files (any part of the project) ----------
+# Raw downloads (re-downloadable with scripts/get_data.sh)
+**/data/raw/sumstats/
+
+# Compressed and binary data anywhere inside a data/ folder
+**/data/**/*.gz
+**/data/**/*.bgz
+**/data/**/*.tbi
+**/data/**/*.parquet
+**/data/**/*.h5
+**/data/**/*.hdf5
+**/data/**/*.npy
+**/data/**/*.npz
+
+# Large text tables in interim and frozen (e.g. frozen_variant_set.tsv)
+# Small text files in data/raw/meta/ are still kept.
+**/data/interim/**/*.tsv
+**/data/frozen/**/*.tsv
+**/data/interim/**/*.csv
+**/data/frozen/**/*.csv
+
+# ---------- Databases ----------
+*.duckdb
+*.duckdb.wal
+*.ddb
+*.ddb.wal
+
+# ---------- Part II: model, genome and score files ----------
+**/models/
+*.h5
+*.hdf5
+*.fa
+*.fasta
+*.fa.gz
+*.fai
+*.2bit
+*.chain
+*.chain.gz
+*.bw
+*.bigwig
+*.bam
+*.bai
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# ---------- Operating system and editors ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,17 @@
+--- C3 run 2026-09-29T14:22:32 ---
+frozen pairs: 50259727
+GTEx_Blood: 50259727 rows matched, checks passed
+GTEx_Brain: 50259727 rows matched, checks passed
+GTEx_Fat: 50259727 rows matched, checks passed
+GTEx_FibroBlast: 50259727 rows matched, checks passed
+GTEx_Muscle: 50259727 rows matched, checks passed
+GTEx_Skin: 50259727 rows matched, checks passed
+Lepik_Blood: 50259727 rows matched, checks passed
+ROSMAP_Brain: 50259727 rows matched, checks passed
+TWINSUK_Fat: 50259727 rows matched, checks passed
+GENCORD_FibroBlast: 50259727 rows matched, checks passed
+FUSION_Muscle: 50259727 rows matched, checks passed
+TWINSUK_Skin: 50259727 rows matched, checks passed
+wrote data/frozen/aligned.parquet: 50259727 rows x 38 columns
+columns: variant, gene, GTEx_Blood_beta, GTEx_Blood_se, GTEx_Blood_pvalue, GTEx_Brain_beta, GTEx_Brain_se, GTEx_Brain_pvalue, GTEx_Fat_beta, GTEx_Fat_se, GTEx_Fat_pvalue, GTEx_FibroBlast_beta, GTEx_FibroBlast_se, GTEx_FibroBlast_pvalue, GTEx_Muscle_beta, GTEx_Muscle_se, GTEx_Muscle_pvalue, GTEx_Skin_beta, GTEx_Skin_se, GTEx_Skin_pvalue, Lepik_Blood_beta, Lepik_Blood_se, Lepik_Blood_pvalue, ROSMAP_Brain_beta, ROSMAP_Brain_se, ROSMAP_Brain_pvalue, TWINSUK_Fat_beta, TWINSUK_Fat_se, TWINSUK_Fat_pvalue, GENCORD_FibroBlast_beta, GENCORD_FibroBlast_se, GENCORD_FibroBlast_pvalue, FUSION_Muscle_beta, FUSION_Muscle_se, FUSION_Muscle_pvalue, TWINSUK_Skin_beta, TWINSUK_Skin_se, TWINSUK_Skin_pvalue
+C3 checks passed

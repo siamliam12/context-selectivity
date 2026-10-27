@@ -1,0 +1,6 @@
+grid	diagonal_mean	off_diagonal_mean	G
+primary	0.901721	0.775749	0.125972
+pearson	0.926436	0.799320	0.127115
+spearman_z	0.896044	0.763092	0.132952
+leadvar	0.890305	0.714343	0.175962
+unselected	0.146519	0.093648	0.052871
