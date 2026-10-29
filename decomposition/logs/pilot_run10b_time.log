@@ -1,43 +1,44 @@
-2026-10-28 21:36:31.154935: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2026-10-28 21:36:31.155018: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2026-10-28 21:36:31.156328: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2026-10-28 21:36:31.162963: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2026-10-28 21:48:22.311269: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-10-28 21:48:22.311352: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-10-28 21:48:22.312759: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-10-28 21:48:22.319401: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2026-10-28 21:36:31.886849: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-2026-10-28 21:36:32.388801: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2026-10-28 21:36:32.429816: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
-2026-10-28 21:36:32.430298: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:23.045142: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-10-28 21:48:23.570085: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:23.615989: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:23.616468: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
 /home/fsh33/micromamba/envs/borzoi-gpu/lib/python3.10/site-packages/google/cloud/storage/_http.py:19: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
   import pkg_resources
-Traceback (most recent call last):
-  File "/home/fsh33/research/main/decomposition/scripts/hound_snp.py", line 280, in <module>
-    main()
-  File "/home/fsh33/research/main/decomposition/scripts/hound_snp.py", line 195, in main
-    options = load_extra_options(options_pkl_file, options)
-  File "/home/fsh33/research/target1/context-ablation/external/baskerville/src/baskerville/helpers/utils.py", line 70, in load_extra_options
-    options_pkl = open(options_pkl_file, "rb")
-FileNotFoundError: [Errno 2] No such file or directory: 'stitch'
-Command exited with non-zero status 1
-	Command being timed: "python scripts/hound_snp.py --float16 -u --stats logD2 --shifts 0 --rc --indel stitch -f data/raw/genome/hg38.fa -t data/raw/borzoi/targets_human.txt -o results/pilot/run10a data/raw/borzoi/params.json data/raw/borzoi/model0_best.h5 data/interim/pilot10.vcf"
-	User time (seconds): 5.04
-	System time (seconds): 2.57
-	Percent of CPU this job got: 267%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.85
+2026-10-28 21:48:23.736300: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.477184: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.477684: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.478063: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.599610: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.600070: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.600454: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-28 21:48:24.600808: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9786 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:08:00.0, compute capability: 7.5
+2026-10-28 21:48:32.790271: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8904
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:03<00:35,  4.00s/it] 20%|██        | 2/10 [00:07<00:31,  3.94s/it] 30%|███       | 3/10 [00:11<00:27,  3.91s/it] 40%|████      | 4/10 [00:15<00:23,  3.92s/it] 50%|█████     | 5/10 [00:19<00:19,  3.97s/it] 60%|██████    | 6/10 [00:23<00:15,  3.96s/it] 70%|███████   | 7/10 [00:27<00:11,  3.93s/it] 80%|████████  | 8/10 [00:31<00:07,  3.93s/it] 90%|█████████ | 9/10 [00:37<00:04,  4.43s/it]100%|██████████| 10/10 [00:42<00:00,  4.69s/it]100%|██████████| 10/10 [00:42<00:00,  4.23s/it]
+	Command being timed: "python scripts/hound_snp.py --float16 -u --stats logD2 --shifts 0 --rc --indel_stitch --require_gpu -f data/raw/genome/hg38.fa -t data/raw/borzoi/targets_human.txt -o results/pilot/run10b data/raw/borzoi/params.json data/raw/borzoi/model0_best.h5 data/interim/pilot10.vcf"
+	User time (seconds): 72.42
+	System time (seconds): 17.62
+	Percent of CPU this job got: 134%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.88
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 621604
+	Maximum resident set size (kbytes): 6848312
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 84596
-	Voluntary context switches: 305
-	Involuntary context switches: 123
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 1365388
+	Voluntary context switches: 143949
+	Involuntary context switches: 529
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 16
+	File system inputs: 2096
+	File system outputs: 11648
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
-	Exit status: 1
+	Exit status: 0
