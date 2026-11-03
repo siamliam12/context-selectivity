@@ -1,0 +1,40 @@
+== sheet: S0 (4, 2)
+['Supplementary Table ', 'Description']
+  Supplementary Table                                                          Description
+0                   S1                                 Description of 15 UK biobank traits
+1                   S2                                     Sniff credible sets (PIP > 0.1)
+2                   S3  Differentially prioritized variants (Sniff - Baseline  PIP > 0.25)
+Supplementary Table  ['S1', 'S2', 'S3', 'S4']
+Description ['Description of 15 UK biobank traits', 'Differentially nominated genes', 'Differentially prioritized variants (Sniff - Baseline  PIP > 0.25)', 'Sniff credible sets (PIP > 0.1)']
+== sheet: S1 (15, 2)
+['Trait', 'Abbreviation']
+                                   Trait Abbreviation
+0  High Light Scatter Reticulocyte Count        HLSRC
+1                   Mean Platelet Volume          MPV
+2                                 Height       Height
+Trait ['Age at Menarche', 'Allergy Eczema Diagnosed', 'Balding Type 1', 'Bone Mineral Density', 'Cholesterol', 'Chronotype (morning person)', 'Diastolic Blood Pressure', 'FEV1/FVC Ratio', 'Forced Vital Capacity', 'Hair Color', 'Height', 'High Light Scatter Reticulocyte Count', 'Mean Corpuscular Hemoglobin', 'Mean Platelet Volume', 'Monocyte Count']
+Abbreviation ['Age at Menarche', 'BMD', 'Balding', 'Cholesterol', 'Chronotype', 'Diastolic BP', 'Eczema', 'FEV:FVC', 'FVC', 'HLSRC', 'Hair pigment', 'Height', 'MC', 'MCH', 'MPV']
+== sheet: S2 (18701, 16)
+['CHR', 'SNP', 'BP', 'A1', 'A2', 'SNPVAR', 'MAF', 'N', 'Z', 'P', 'PIP', 'BETA_MEAN', 'BETA_SD', 'CREDIBLE_SET', 'CS_ID', 'Trait']
+   CHR         SNP       BP A1 A2        SNPVAR       MAF       N        Z             P       PIP  BETA_MEAN   BETA_SD            CREDIBLE_SET  CS_ID  Trait
+0    1  rs10910031  2163007  A  G  4.856700e-07  0.076932  519307  -5.6488  1.615720e-08  0.118742  -0.000872  0.002428  chr1:1000001-4000001:3      3  HLSRC
+1    1  rs12061341  2165918  G  C  1.643500e-06  0.077228  519307  -5.5535  2.800060e-08  0.237925  -0.001711  0.003148  chr1:1000001-4000001:3      3  HLSRC
+2    1   rs1569419  2996602  T  C  2.021000e-08  0.232560  519307 -13.8390  1.482550e-43  0.999994  -0.017025  0.001383  chr1:1000001-4000001:1      1  HLSRC
+N ['352052', '357451', '360857', '370816', '373220', '374618', '392462', '397472', '399021', '413745', '428790', '430793', '482259', '519307', '546451']
+CS_ID ['1', '10', '2', '3', '4', '5', '6', '7', '8', '9']
+Trait ['Age at Menarche', 'BMD', 'Balding', 'Cholesterol', 'Chronotype', 'Diastolic BP', 'Eczema', 'FEV:FVC', 'FVC', 'HLSRC', 'Hair pigment', 'Height', 'MC', 'MCH', 'MPV']
+== sheet: S3 (3230, 11)
+['CHR', 'SNP', 'BP', 'A1', 'A2', 'PIP_susie', 'PIP_base', 'PIP_borzoi', 'CS_borzoi', 'trait', 'cred_id']
+   CHR          SNP        BP A1 A2  PIP_susie  PIP_base  PIP_borzoi                 CS_borzoi                                        trait  cred_id
+0    1   rs10493008  22013771  G  A   0.130692  0.129884    0.650943  chr1:21000001-24000001:2  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT        2
+1    1  rs563437995  25833508  G  C   0.187372  0.195078    0.620889  chr1:24000001-27000001:3  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT        3
+2    1    rs2015023  29456085  C  T   0.073089  0.072886    0.335398  chr1:28000001-31000001:1  blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT        1
+trait ['biochemistry_Cholesterol', 'blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT', 'blood_MEAN_CORPUSCULAR_HEMOGLOBIN', 'blood_MEAN_PLATELET_VOL', 'blood_MONOCYTE_COUNT', 'bmd_HEEL_TSCOREz', 'body_BALDING1', 'body_HEIGHTz', 'bp_DIASTOLICadjMEDz', 'disease_ALLERGY_ECZEMA_DIAGNOSED', 'lung_FEV1FVCzSMOKE', 'lung_FVCzSMOKE', 'other_MORNINGPERSON', 'pigment_HAIR', 'repro_MENARCHE_AGE']
+cred_id ['0', '1', '10', '2', '3', '4', '5', '6', '7', '8', '9']
+== sheet: S4 (869, 5)
+['ENSGID', 'Gene', 'Sniff credible set', 'PoPS rank (1Mb window)', 'Trait']
+            ENSGID    Gene          Sniff credible set PoPS rank (1Mb window)  Trait
+0  ENSG00000162676    GFI1    chr1:91000001-94000001:1                      4  HLSRC
+1  ENSG00000143575    HAX1  chr1:153000001-156000001:5                      8  HLSRC
+2  ENSG00000169224  GCSAML  chr1:246000001-249000001:3                      4  HLSRC
+Trait ['Age at Menarche', 'BMD', 'Balding', 'Cholesterol', 'Chronotype', 'Diastolic BP', 'Eczema', 'FEV:FVC', 'FVC', 'HLSRC', 'Hair pigment', 'Height', 'MC', 'MCH', 'MPV']
