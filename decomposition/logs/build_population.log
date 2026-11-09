@@ -1,0 +1,46 @@
+read 5,830 rows
+                                      trait           label                             full_name
+                   biochemistry_Cholesterol     Cholesterol                           Cholesterol
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT           HLSRC High Light Scatter Reticulocyte Count
+          blood_MEAN_CORPUSCULAR_HEMOGLOBIN             MCH           Mean Corpuscular Hemoglobin
+                    blood_MEAN_PLATELET_VOL             MPV                  Mean Platelet Volume
+                       blood_MONOCYTE_COUNT              MC                        Monocyte Count
+                           bmd_HEEL_TSCOREz             BMD                  Bone Mineral Density
+                              body_BALDING1         Balding                        Balding Type 1
+                               body_HEIGHTz          Height                                Height
+                        bp_DIASTOLICadjMEDz    Diastolic BP              Diastolic Blood Pressure
+           disease_ALLERGY_ECZEMA_DIAGNOSED          Eczema              Allergy Eczema Diagnosed
+                         lung_FEV1FVCzSMOKE         FEV:FVC                        FEV1/FVC Ratio
+                             lung_FVCzSMOKE             FVC                 Forced Vital Capacity
+                        other_MORNINGPERSON      Chronotype           Chronotype (morning person)
+                               pigment_HAIR    Hair pigment                            Hair Color
+                         repro_MENARCHE_AGE Age at Menarche                       Age at Menarche
+
+Rows per trait and direction:
+direction        demoted  promoted
+label                             
+Age at Menarche       91       103
+BMD                  295       334
+Balding              137       192
+Cholesterol           56       132
+Chronotype            41        51
+Diastolic BP         109       149
+Eczema                84        90
+FEV:FVC              185       192
+FVC                   76        95
+HLSRC                 80       225
+Hair pigment         145       108
+Height               638       756
+MC                   242       285
+MCH                  193       217
+MPV                  228       301
+
+Set A (promoted only): 3,230 rows, 3,160 unique variants, 385 indel rows, 0.673 in a Sniff credible set
+
+Set B (promoted + demoted): 5,830 rows, 5,704 unique variants, 629 indel rows, 0.602 in a Sniff credible set
+
+Demoted rows in a baseline credible set: 0.678
+Variants promoted in one trait and demoted in another: 35
+
+saved decomposition/data/interim/variant_population.csv: 5,830 rows
+saved decomposition/data/frozen/trait_map.csv
