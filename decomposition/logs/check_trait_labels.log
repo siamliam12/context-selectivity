@@ -1,0 +1,25 @@
+2,965 rows match on variant and exact Sniff PIP
+
+File code -> S2 label it matches (number of rows):
+                                      trait           Trait  rows
+                   biochemistry_Cholesterol         FEV:FVC    94
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT             MPV   180
+          blood_MEAN_CORPUSCULAR_HEMOGLOBIN     Cholesterol   231
+                    blood_MEAN_PLATELET_VOL           HLSRC   289
+                       blood_MONOCYTE_COUNT             MCH   287
+                           bmd_HEEL_TSCOREz    Diastolic BP   354
+                              body_BALDING1              MC   140
+                               body_HEIGHTz             BMD   772
+                        bp_DIASTOLICadjMEDz Age at Menarche   126
+           disease_ALLERGY_ECZEMA_DIAGNOSED    Hair pigment    69
+                         lung_FEV1FVCzSMOKE          Height   177
+                             lung_FVCzSMOKE         Balding    52
+                        other_MORNINGPERSON             FVC    21
+                               pigment_HAIR      Chronotype    97
+                         repro_MENARCHE_AGE          Eczema    76
+
+Share of matched rows where N agrees: 1.0
+
+PCSK9 check, rs7552841 in S2:
+      SNP      PIP      N   Trait
+rs7552841 0.999994 373220 FEV:FVC

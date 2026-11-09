@@ -1,0 +1,89 @@
+15 traits found
+biochemistry_Cholesterol: 15,134,204 variants, N = 373,220
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT: 15,134,507 variants, N = 399,021
+blood_MEAN_CORPUSCULAR_HEMOGLOBIN: 15,134,447 variants, N = 430,793
+blood_MEAN_PLATELET_VOL: 15,134,516 variants, N = 519,307
+blood_MONOCYTE_COUNT: 15,134,546 variants, N = 413,745
+bmd_HEEL_TSCOREz: 15,134,730 variants, N = 428,790
+body_BALDING1: 15,126,018 variants, N = 397,472
+body_HEIGHTz: 15,134,857 variants, N = 482,259
+bp_DIASTOLICadjMEDz: 15,134,457 variants, N = 370,816
+disease_ALLERGY_ECZEMA_DIAGNOSED: 15,134,853 variants, N = 352,052
+lung_FEV1FVCzSMOKE: 15,133,752 variants, N = 392,462
+lung_FVCzSMOKE: 15,133,752 variants, N = 360,857
+other_MORNINGPERSON: 15,134,098 variants, N = 357,451
+pigment_HAIR: 15,134,890 variants, N = 546,451
+repro_MENARCHE_AGE: 15,128,771 variants, N = 374,618
+
+Share of rows labelled ':0' in the last file read: 0.9996
+
+== counts at cut-off 0.25 ==
+promoted: 3,230 rows, 3,160 unique (paper: 3,160)
+demoted: 2,600 rows, 2,579 unique (paper: 2,579)
+
+Rows per trait:
+direction                                    demoted  promoted
+trait                                                         
+biochemistry_Cholesterol                          56       132
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT       80       225
+blood_MEAN_CORPUSCULAR_HEMOGLOBIN                193       217
+blood_MEAN_PLATELET_VOL                          228       301
+blood_MONOCYTE_COUNT                             242       285
+bmd_HEEL_TSCOREz                                 295       334
+body_BALDING1                                    137       192
+body_HEIGHTz                                     638       756
+bp_DIASTOLICadjMEDz                              109       149
+disease_ALLERGY_ECZEMA_DIAGNOSED                  84        90
+lung_FEV1FVCzSMOKE                               185       192
+lung_FVCzSMOKE                                    76        95
+other_MORNINGPERSON                               41        51
+pigment_HAIR                                     145       108
+repro_MENARCHE_AGE                                91       103
+
+== promoted vs S3 (variant-trait rows) ==
+_merge
+both          3230
+left_only        0
+right_only       0
+max |PIP_base difference|:  0.0
+max |Sniff PIP difference|: 0.0
+credible-set labels equal:  1.0
+
+S3 rows with cred_id 0: 1056
+S3 credible sets per trait (trait + CS_borzoi):
+trait
+biochemistry_Cholesterol                       126
+blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT    221
+blood_MEAN_CORPUSCULAR_HEMOGLOBIN              207
+blood_MEAN_PLATELET_VOL                        290
+blood_MONOCYTE_COUNT                           275
+bmd_HEEL_TSCOREz                               321
+body_BALDING1                                  181
+body_HEIGHTz                                   725
+bp_DIASTOLICadjMEDz                            143
+disease_ALLERGY_ECZEMA_DIAGNOSED                87
+lung_FEV1FVCzSMOKE                             187
+lung_FVCzSMOKE                                  93
+other_MORNINGPERSON                             50
+pigment_HAIR                                   104
+repro_MENARCHE_AGE                             102
+
+S2 sample size per figure label:
+Trait
+Age at Menarche    [370816]
+BMD                [482259]
+Balding            [360857]
+Cholesterol        [430793]
+Chronotype         [546451]
+Diastolic BP       [428790]
+Eczema             [374618]
+FEV:FVC            [373220]
+FVC                [357451]
+HLSRC              [519307]
+Hair pigment       [352052]
+Height             [392462]
+MC                 [397472]
+MCH                [413745]
+MPV                [399021]
+
+saved decomposition/data/interim/differential_variants.csv: 5,830 rows
