@@ -1,0 +1,10 @@
+SNPs with groups in both genomes: 5,074
+mutation class same in hg19 and hg38: 1.0000
+CpG same in hg19 and hg38: 0.9990
+GC correlation, hg19 vs hg38: 1.0000
+frozen variants (score file, hg19): hg19 position check passed for 5,704 variants
+frozen variants (our hg38 side): hg38 position check passed for 5,693 variants
+
+variants: 5,704 (620 indels); variant-trait rows: 5,830
+saved decomposition/data/frozen/variants.csv: 5,704 rows, 25 columns
+saved decomposition/data/frozen/variant_traits.csv: 5,830 rows, 19 columns

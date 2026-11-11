@@ -1,0 +1,44 @@
+snp: chunks None, compression None
+chr: chunks None, compression None
+pos: chunks None, compression None
+ref_allele: chunks None, compression None
+alt_allele: chunks None, compression None
+logD2: chunks None, compression None
+read 3 lists in 65 s
+ row          snp  chr   pos
+   0 rs1264289758 chr1 10177
+   1 rs1557426776 chr1 10352
+   2  rs534229142 chr1 10511
+   3 rs1557426951 chr1 10616
+   4  rs575272151 chr1 11008
+
+19,534,182 rows
+Rows per chromosome:
+chr
+chr1     1546201
+chr10     978085
+chr11     963901
+chr12     935306
+chr13     698294
+chr14     638091
+chr15     575493
+chr16     625007
+chr17     548094
+chr18     549667
+chr19     455693
+chr2     1654353
+chr20     430910
+chr21     273128
+chr22     272469
+chr3     1386618
+chr4     1403892
+chr5     1252126
+chr6     1260741
+chr7     1144473
+chr8     1088898
+chr9      852742
+Duplicate rsIDs: 423,595
+Duplicate chr+pos: 107,178
+Positions sorted within each chromosome: True
+
+saved decomposition/data/interim/score_index.parquet

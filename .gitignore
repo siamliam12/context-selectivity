@@ -60,4 +60,4 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
-*~
+*~**/data/**/*.parquet

@@ -1,0 +1,12 @@
+our variants, file REF: hg19 position check passed for 5,704 variants
+
+random sample of 10,000 rows (seed 20261110), share whose REF fits each genome:
+          fits_hg19  fits_hg38
+is_indel                      
+SNP             1.0   0.250777
+indel           1.0   0.208502
+
+rows whose REF does not fit hg19: 0
+Empty DataFrame
+Columns: [row, snp, chr, pos, s_ref, s_alt, is_indel, fits_hg19, fits_hg38]
+Index: []

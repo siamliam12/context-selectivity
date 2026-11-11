@@ -1,0 +1,33 @@
+our variants: 5,704; score file rows: 19,534,182
+most common IDs in the score file:
+snp
+rs71296992      47
+rs1554123575    44
+rs71299249      34
+
+position found using hg19: 5,704 of 5,704
+position found using hg38: 77 of 5,694
+score file positions are: hg19
+letters read for 5,746 candidate rows (self-test passed)
+
+variants with more than one row at their position: 40
+
+letters, by our REF check:
+letters                same  swapped   All
+ref_check                                 
+A1_is_ref              5113        0  5113
+A2_is_ref                16        0    16
+both_match_A1_assumed     1      563   564
+minus_strand_indel        0        1     1
+no_hg38_position         10        0    10
+All                    5140      564  5704
+
+rsID agrees (where letters match): 0.8363
+
+not found at their position with matching letters: 0
+of these, rsID present in the score file: 0
+Empty DataFrame
+Columns: [variant, SNP, A1, A2, liftover_status, ref_check, row, snp, chr, pos]
+Index: []
+
+saved decomposition/data/interim/score_rows.csv: 5,704 variants with a score-file row

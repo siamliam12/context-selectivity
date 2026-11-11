@@ -1,0 +1,3 @@
+real table: position check passed for 5,693 variants
+shifted by +1 correctly failed: shifted by +1: 4424 of 5693 variants fail the position check, e.g. rows [1, 2, 3, 4, 5]
+REF/ALT swapped correctly failed: REF/ALT swapped: 5074 of 5074 variants fail the position check, e.g. rows [0, 1, 2, 3, 4]

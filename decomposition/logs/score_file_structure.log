@@ -1,0 +1,15 @@
+== borzoi_veps folder ==
+                 0  seqnn-share/sniff/borzoi_veps/
+             1,969  seqnn-share/sniff/borzoi_veps/README
+   264,572,427,269  seqnn-share/sniff/borzoi_veps/scores.h5
+   264,572,427,269  seqnn-share/sniff/borzoi_veps/scores_indel_snp_distmatched.h5
+
+== inside seqnn-share/sniff/borzoi_veps/scores_indel_snp_distmatched.h5 ==
+alt_allele: shape (19534182,), type |S662, first 5: [b'A', b'T', b'A', b'CCGCCGTTGCAAAGGCGCGCCG', b'G']
+chr: shape (19534182,), type |S5, first 5: [b'chr1', b'chr1', b'chr1', b'chr1', b'chr1']
+logD2: shape (19534182, 6385), type float16
+pos: shape (19534182,), type uint32, first 5: [10177, 10352, 10511, 10616, 11008]
+ref_allele: shape (19534182,), type |S88, first 5: [b'AC', b'TA', b'G', b'C', b'C']
+snp: shape (19534182,), type |S15, first 5: [b'rs1264289758', b'rs1557426776', b'rs534229142', b'rs1557426951', b'rs575272151']
+target_ids: shape (6385,), type |S31, first 5: [b'CNhs10608+', b'CNhs10610+', b'CNhs10612+', b'CNhs10615+', b'CNhs10616+']
+target_labels: shape (6385,), type |S198, first 5: [b'CAGE:Clontech Human Universal Reference Total RNA, pool1', b'CAGE:SABiosciences XpressRef Human Universal Total RNA, pool1', b'CAGE:Universal RNA - Human Normal Tissues Biochain, pool1', b'CAGE:adipose tissue, adult, pool1', b'CAGE:bladder, adult, pool1']

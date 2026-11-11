@@ -1,0 +1,44 @@
+Liftover status x REF check:
+ref_check        A1_is_ref  A2_is_ref  both_match_A1_assumed  minus_strand_indel  no_hg38_position   All
+liftover_status                                                                                         
+minus_strand            19          0                      0                   1                 0    20
+ok                    5094         16                    564                   0                 0  5674
+other_chrom              0          0                      0                   0                 5     5
+unmapped                 0          0                      0                   0                 5     5
+All                   5113         16                    564                   1                10  5704
+
+SNPs and indels (liftover ok only):
+ref_check  A1_is_ref  A2_is_ref  both_match_A1_assumed
+is_indel                                              
+SNP             5039         16                      0
+indel             55          0                    564
+
+Palindromic SNPs (A/T or C/G): 779, on a flipped strand: 0
+
+Neither letter matches the genome: 0
+
+SNPs where A2 is REF: 16
+        variant        SNP chr_hg38     BP_hg38 A1 A2 REF ALT
+7:142650475:C:G  rs3757853     chr7 142953388.0  C  G   G   C
+ 3:16897913:C:T  rs6442652     chr3  16856401.0  C  T   T   C
+ 3:16907433:G:T  rs6787413     chr3  16865922.0  G  T   T   G
+ 3:16930047:A:G  rs1441037     chr3  16888548.0  A  G   G   A
+ 3:16911330:A:G  rs9852648     chr3  16869827.0  A  G   G   A
+9:136147160:C:T   rs554833     chr9 133271745.0  C  T   T   C
+11:69089552:C:G rs28971643    chr11  69322084.0  C  G   G   C
+1:146740576:G:A rs11576360     chr1 147268917.0  G  A   A   G
+ 19:8669873:T:C  rs7260282    chr19   8604988.0  T  C   C   T
+ 19:8669931:G:C  rs7255721    chr19   8605046.0  G  C   C   G
+ 7:74073590:A:G rs73137144     chr7  74659260.0  A  G   G   A
+9:136149830:G:A   rs532436     chr9 133274414.0  G  A   A   G
+22:28056338:T:C   rs134041    chr22  27660378.0  T  C   C   T
+22:28067235:T:C   rs134086    chr22  27671258.0  T  C   C   T
+17:34900836:G:C  rs3736166    chr17  36544987.0  G  C   C   G
+ 7:74134911:T:C rs35005436     chr7  74720592.0  T  C   C   T
+
+Pilot: 30 variants, 30 with the same REF and ALT
+Empty DataFrame
+Columns: [id, pos, ref, alt, A1, A2, REF, ALT, ref_check]
+Index: []
+
+saved decomposition/data/interim/ref_alt_hg38.csv: 5,704 rows

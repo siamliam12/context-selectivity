@@ -1,0 +1,24 @@
+SNPs with REF and ALT: 5,074
+
+Mutation class:
+mut_class
+transition      3442
+transversion    1632
+Transition / transversion ratio: 2.11
+
+CpG sites: 987 (19.5%)
+Transitions at CpG sites: 784
+
+GC content in the 101-base window:
+count    5074.000000
+mean        0.486754
+std         0.123303
+min         0.128713
+25%         0.396040
+50%         0.475248
+75%         0.574257
+max         0.900990
+
+Windows containing unknown bases (N): 0
+
+saved decomposition/data/interim/variant_context_hg38.csv: 5,704 rows

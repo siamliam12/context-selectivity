@@ -1,0 +1,46 @@
+5,830 variant-trait rows -> 5,704 unique variants
+
+Liftover result:
+liftover_status
+ok              5674
+minus_strand      20
+other_chrom        5
+unmapped           5
+Share not ok: 0.5259%
+
+Rows that are not ok (first 50):
+                            variant         SNP  CHR   BP_hg19                    A1 A2               chr_hg38     BP_hg38 strand liftover_status
+                    1:145472741:C:A rs181473381    1 145472741                     C  A                   chr1 145962347.0      -    minus_strand
+                    1:145827097:T:G  rs71618972    1 145827097                     T  G                   chr1 145607966.0      -    minus_strand
+                    10:51565548:T:C   rs7909927   10  51565548                     T  C                  chr10  46030274.0      -    minus_strand
+                    10:51574606:T:C  rs10761618   10  51574606                     T  C                  chr10  46021216.0      -    minus_strand
+                    10:51579413:C:T  rs17720205   10  51579413                     C  T                  chr10  46016409.0      -    minus_strand
+                    21:10959602:C:T rs147204198   21  10959602                     C  T                  chr21  10552855.0      -    minus_strand
+                    21:11098709:A:G  rs79633368   21  11098709                     A  G                  chr21  10413748.0      -    minus_strand
+                    10:51581143:A:G  rs17776547   10  51581143                     A  G                  chr10  46014679.0      -    minus_strand
+                    10:51582686:G:A  rs11592181   10  51582686                     G  A                  chr10  46013136.0      -    minus_strand
+                    21:10908873:T:C rs529676177   21  10908873                     T  C                  chr21  10603584.0      -    minus_strand
+                    15:22993121:C:T rs149042952   15  22993121                     C  T                  chr15  22879947.0      -    minus_strand
+                    10:51565606:G:A   rs7918832   10  51565606                     G  A                  chr10  46030216.0      -    minus_strand
+10:51579521:CTTAGATTACTAACTACTTAG:C rs796827314   10  51579521 CTTAGATTACTAACTACTTAG  C                  chr10  46016301.0      -    minus_strand
+                    1:142586378:G:T rs544234802    1 142586378                     G  T chr4_GL000008v2_random     50944.0      +     other_chrom
+                    1:142705587:C:T rs530864823    1 142705587                     C  T chr4_GL000008v2_random    170153.0      +     other_chrom
+                    1:142712954:T:C rs541899473    1 142712954                     T  C chr4_GL000008v2_random    177520.0      +     other_chrom
+                    15:22969232:G:A   rs7170637   15  22969232                     G  A                  chr15  22903836.0      -    minus_strand
+                    19:54599861:T:C  rs12984924   19  54599861                     T  C   chr19_KI270938v1_alt     70974.0      +     other_chrom
+                    1:143130420:G:A rs544232421    1 143130420                     G  A chr1_KI270706v1_random     12659.0      +     other_chrom
+                    1:145435675:A:G  rs77516679    1 145435675                     A  G                   chr1 145999387.0      -    minus_strand
+                    1:145507190:C:A rs190113734    1 145507190                     C  A                   chr1 145927903.0      -    minus_strand
+                    1:146760020:G:A  rs12071607    1 146760020                     G  A                    NaN         NaN    NaN        unmapped
+                    7:130419069:C:T rs112514704    7 130419069                     C  T                    NaN         NaN    NaN        unmapped
+                    10:48573416:C:T  rs11204272   10  48573416                     C  T                  chr10  47165946.0      -    minus_strand
+                    21:11127276:A:G  rs62210188   21  11127276                     A  G                  chr21  10385181.0      -    minus_strand
+                    21:11127282:A:G  rs62210190   21  11127282                     A  G                  chr21  10385175.0      -    minus_strand
+                    9:136154304:C:T    rs649129    9 136154304                     C  T                    NaN         NaN    NaN        unmapped
+                    10:51549496:T:C  rs10993994   10  51549496                     T  C                  chr10  46046326.0      -    minus_strand
+                    16:46397037:T:G  rs62059447   16  46397037                     T  G                    NaN         NaN    NaN        unmapped
+                    16:46398828:T:A   rs4966451   16  46398828                     T  A                    NaN         NaN    NaN        unmapped
+
+Pilot: 30 variants, 30 found by rsID, 30 with the same hg38 position
+
+saved decomposition/data/interim/liftover_hg38.csv: 5,704 rows
