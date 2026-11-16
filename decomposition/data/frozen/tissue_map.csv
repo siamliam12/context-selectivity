@@ -1,0 +1,43 @@
+group,subtissue_v8,n_tracks,weight,subtissue_v10,source
+adipose_tissue,Adipose - Subcutaneous,2,0.6666666666666666,Adipose_Subcutaneous,GTEx
+adipose_tissue,Adipose - Visceral (Omentum),1,0.3333333333333333,Adipose_Visceral_Omentum,GTEx
+adrenal_gland,Adrenal Gland,3,1.0,Adrenal_Gland,GTEx
+bladder,Bladder,3,1.0,Bladder,GTEx
+blood,Cells - EBV-transformed lymphocytes,1,0.3333333333333333,Cells_EBV-transformed_lymphocytes,GTEx
+blood,Whole Blood,2,0.6666666666666666,Whole_Blood,GTEx
+blood_vessel,Artery - Aorta,1,0.3333333333333333,Artery_Aorta,GTEx
+blood_vessel,Artery - Tibial,2,0.6666666666666666,Artery_Tibial,GTEx
+bone_marrow,Cells - Leukemia cell line (CML),2,1.0,Cells_Leukemia_cell_line_CML,ENCODE (step 4e)
+brain,Brain - Amygdala,1,0.3333333333333333,Brain_Amygdala,GTEx
+brain,Brain - Cerebellar Hemisphere,1,0.3333333333333333,Brain_Cerebellar_Hemisphere,GTEx
+brain,Brain - Cortex,1,0.3333333333333333,Brain_Cortex,GTEx
+breast,Breast - Mammary Tissue,3,1.0,Breast_Mammary_Tissue,GTEx
+cervix_uteri,Cervix - Ectocervix,1,0.3333333333333333,Cervix_Ectocervix,GTEx
+cervix_uteri,Cervix - Endocervix,2,0.6666666666666666,Cervix_Endocervix,GTEx
+colon,Colon - Sigmoid,2,0.6666666666666666,Colon_Sigmoid,GTEx
+colon,Colon - Transverse,1,0.3333333333333333,Colon_Transverse,GTEx
+esophagus,Esophagus - Gastroesophageal Junction,2,0.6666666666666666,Esophagus_Gastroesophageal_Junction,GTEx
+esophagus,Esophagus - Mucosa,1,0.3333333333333333,Esophagus_Mucosa,GTEx
+fallopian_tube,Fallopian Tube,3,1.0,Fallopian_Tube,GTEx
+heart,Heart - Atrial Appendage,1,0.3333333333333333,Heart_Atrial_Appendage,GTEx
+heart,Heart - Left Ventricle,2,0.6666666666666666,Heart_Left_Ventricle,GTEx
+kidney,Kidney - Cortex,3,1.0,Kidney_Cortex,GTEx
+liver,Liver,3,1.0,Liver,GTEx
+lung,Lung,3,1.0,Lung,GTEx
+muscle,Muscle - Skeletal,3,1.0,Muscle_Skeletal,GTEx
+nerve,Nerve - Tibial,2,1.0,Nerve_Tibial,GTEx
+ovary,Ovary,3,1.0,Ovary,GTEx
+pancreas,Pancreas,3,1.0,Pancreas,GTEx
+pituitary,Pituitary,3,1.0,Pituitary,GTEx
+prostate,Prostate,3,1.0,Prostate,GTEx
+salivary_gland,Minor Salivary Gland,3,1.0,Minor_Salivary_Gland,GTEx
+skin,Cells - Cultured fibroblasts,1,0.3333333333333333,Cells_Cultured_fibroblasts,GTEx
+skin,Skin - Not Sun Exposed (Suprapubic),1,0.3333333333333333,Skin_Not_Sun_Exposed_Suprapubic,GTEx
+skin,Skin - Sun Exposed (Lower leg),1,0.3333333333333333,Skin_Sun_Exposed_Lower_leg,GTEx
+small_intestine,Small Intestine - Terminal Ileum,3,1.0,Small_Intestine_Terminal_Ileum,GTEx
+spleen,Spleen,3,1.0,Spleen,GTEx
+stomach,Stomach,3,1.0,Stomach,GTEx
+testis,Testis,2,1.0,Testis,GTEx
+thyroid,Thyroid,3,1.0,Thyroid,GTEx
+uterus,Uterus,2,1.0,Uterus,GTEx
+vagina,Vagina,3,1.0,Vagina,GTEx
