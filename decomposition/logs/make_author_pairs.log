@@ -1,0 +1,8 @@
+       label       group  printed_z                                author_claim
+ Cholesterol       liver       2.42              cholesterol: most likely liver
+         MCH bone_marrow       1.08         hemoglobin: most likely bone marrow
+       HLSRC bone_marrow       0.78 reticulocyte count: most likely bone marrow
+          MC       blood       1.48           monocyte count: most likely blood
+          MC      spleen       0.50                 monocyte count: also spleen
+Diastolic BP       heart       0.59                         diastolic BP: heart
+saved decomposition/data/frozen/author_pairs.csv: 6 pairs
