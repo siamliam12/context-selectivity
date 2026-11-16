@@ -1,0 +1,6 @@
+17 labelled dots in 11 traits; traits with none: ['BMD', 'FEV:FVC', 'FVC', 'Height']
+saved decomposition/data/frozen/fig4c_labels.csv: 17 rows
+
+set C: 1172 variant-trait rows, 1158 unique variants, 1020 unique SNPs (the paper reports 1,158)
+rows per trait: {'Height': 260, 'BMD': 115, 'MC': 110, 'Balding': 96, 'MPV': 95, 'HLSRC': 87, 'MCH': 69, 'Cholesterol': 65, 'FEV:FVC': 64, 'Diastolic BP': 48, 'Age at Menarche': 40, 'Eczema': 39, 'FVC': 35, 'Hair pigment': 32, 'Chronotype': 17}
+saved decomposition/data/frozen/set_c_variants.csv: 1172 rows

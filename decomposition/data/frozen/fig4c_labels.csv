@@ -1,0 +1,18 @@
+label,group,approx_z,on_line
+HLSRC,bone_marrow,0.82,False
+MPV,blood,0.89,False
+MPV,bone_marrow,0.78,False
+MPV,spleen,0.5,True
+Cholesterol,liver,2.42,False
+MCH,bone_marrow,1.08,False
+MC,blood,1.48,False
+MC,spleen,0.83,False
+MC,lung,0.5,True
+Balding,blood,0.71,False
+Balding,muscle,0.63,False
+Chronotype,brain,0.79,False
+Hair pigment,blood,0.72,False
+Eczema,blood,1.29,False
+Eczema,spleen,0.6,False
+Age at Menarche,brain,0.7,False
+Diastolic BP,heart,0.59,False
