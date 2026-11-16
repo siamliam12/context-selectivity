@@ -1,0 +1,63 @@
+30 GRCh38 gene-quantification files across 8 of 8 experiments
+ experiment        file bio_reps annotation  default   MB    created
+ENCSR000AEM ENCFF742CVV      [2]        V29     True 10.9 2021-06-01
+ENCSR000AEM ENCFF472EUD      [2]        V24     True  9.9 2016-02-04
+ENCSR000AEM ENCFF222UVT      [1]        V29    False 10.9 2021-06-01
+ENCSR000AEM ENCFF185UMS      [1]        V24    False  9.9 2016-02-04
+ENCSR000AEO ENCFF322EYC      [2]        V29     True 10.9 2021-02-23
+ENCSR000AEO ENCFF342LXD      [2]        V24     True  9.9 2016-02-04
+ENCSR000AEO ENCFF842EIL      [1]        V29    False 10.9 2021-02-23
+ENCSR000AEO ENCFF427EWZ      [1]        V24    False  9.9 2016-02-04
+ENCSR000AEP ENCFF472HFI      [1]        V29     True 11.0 2021-03-10
+ENCSR000AEP ENCFF156DDL      [1]        V24     True 10.0 2017-02-01
+ENCSR000AEP ENCFF628SMT      [2]        V29    False 11.0 2021-03-10
+ENCSR000AEP ENCFF461HPX      [2]        V24    False 10.0 2017-02-01
+ENCSR000AEQ ENCFF486DGZ      [2]        V29     True 11.0 2021-03-10
+ENCSR000AEQ ENCFF868MFR      [2]        V24     True 10.0 2017-02-01
+ENCSR000AEQ ENCFF088LCK      [1]        V29    False 11.0 2021-03-10
+ENCSR000AEQ ENCFF026BMH      [1]        V24    False 10.0 2017-02-01
+ENCSR000CPH ENCFF068NRZ      [1]        V29     True 10.9 2021-04-17
+ENCSR000CPH ENCFF172GIN      [1]        V24     True  9.9 2016-07-07
+ENCSR000CPH ENCFF928YLB      [2]        V29    False 10.9 2021-04-17
+ENCSR000CPH ENCFF768TKT      [2]        V24    False  9.9 2016-07-07
+ENCSR000EYO ENCFF179CNW      [1]        V29     True 10.9 2021-03-10
+ENCSR000EYO ENCFF679BCM      [2]        V29    False 11.0 2021-03-10
+ENCSR545DKY ENCFF556ISR      [2]        V29     True 11.1 2021-06-01
+ENCSR545DKY ENCFF937GNL      [2]        V24     True 10.0 2016-02-19
+ENCSR545DKY ENCFF416LVG      [1]        V29    False 11.0 2021-06-01
+ENCSR545DKY ENCFF047WAI      [1]        V24    False 10.0 2016-02-19
+ENCSR637VLS ENCFF121UFS      [1]        V29     True 11.1 2021-04-19
+ENCSR637VLS ENCFF490IGF      [1]        V24     True 10.1 2017-03-01
+ENCSR637VLS ENCFF938DAF      [2]        V29    False 11.1 2021-04-19
+ENCSR637VLS ENCFF022QGS      [2]        V24    False 10.1 2017-03-01
+
+replicates per experiment (V29):
+experiment
+ENCSR000AEM    [1, 2]
+ENCSR000AEO    [1, 2]
+ENCSR000AEP    [1, 2]
+ENCSR000AEQ    [1, 2]
+ENCSR000CPH    [1, 2]
+ENCSR000EYO    [1, 2]
+ENCSR545DKY    [1, 2]
+ENCSR637VLS    [1, 2]
+
+chosen: 16 files from 8 experiments; experiments with no GRCh38 file: []
+  have decomposition/data/raw/encode/ENCSR000AEM_ENCFF742CVV.tsv
+  have decomposition/data/raw/encode/ENCSR000AEM_ENCFF222UVT.tsv
+  have decomposition/data/raw/encode/ENCSR000AEO_ENCFF322EYC.tsv
+  have decomposition/data/raw/encode/ENCSR000AEO_ENCFF842EIL.tsv
+  have decomposition/data/raw/encode/ENCSR000AEP_ENCFF472HFI.tsv
+  have decomposition/data/raw/encode/ENCSR000AEP_ENCFF628SMT.tsv
+  have decomposition/data/raw/encode/ENCSR000AEQ_ENCFF486DGZ.tsv
+  have decomposition/data/raw/encode/ENCSR000AEQ_ENCFF088LCK.tsv
+  have decomposition/data/raw/encode/ENCSR000CPH_ENCFF068NRZ.tsv
+  have decomposition/data/raw/encode/ENCSR000CPH_ENCFF928YLB.tsv
+  have decomposition/data/raw/encode/ENCSR000EYO_ENCFF179CNW.tsv
+  have decomposition/data/raw/encode/ENCSR000EYO_ENCFF679BCM.tsv
+  have decomposition/data/raw/encode/ENCSR545DKY_ENCFF556ISR.tsv
+  have decomposition/data/raw/encode/ENCSR545DKY_ENCFF416LVG.tsv
+  have decomposition/data/raw/encode/ENCSR637VLS_ENCFF121UFS.tsv
+  have decomposition/data/raw/encode/ENCSR637VLS_ENCFF938DAF.tsv
+
+saved decomposition/data/interim/encode_k562_files.csv

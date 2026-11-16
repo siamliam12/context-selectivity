@@ -1,0 +1,122 @@
+distmatched: 6,385 tracks; raw: 6,385 tracks
+same ids and labels, same order, in both files: True
+
+tracks by kind (text before the first colon in the label):
+kind
+CHIP     3886
+RNA       955
+DNASE     674
+CAGE      638
+ATAC      232
+
+GTEx tracks (id starts with GTEX): 87
+labels and how many tracks each:
+target_label
+RNA:adipose_tissue     3
+RNA:adrenal_gland      3
+RNA:bladder            3
+RNA:blood              3
+RNA:blood_vessel       3
+RNA:brain              3
+RNA:breast             3
+RNA:cervix_uteri       3
+RNA:colon              3
+RNA:esophagus          3
+RNA:fallopian_tube     3
+RNA:heart              3
+RNA:kidney             3
+RNA:liver              3
+RNA:lung               3
+RNA:muscle             3
+RNA:nerve              2
+RNA:ovary              3
+RNA:pancreas           3
+RNA:pituitary          3
+RNA:prostate           3
+RNA:salivary_gland     3
+RNA:skin               3
+RNA:small_intestine    3
+RNA:spleen             3
+RNA:stomach            3
+RNA:testis             2
+RNA:thyroid            3
+RNA:uterus             2
+RNA:vagina             3
+
+K562-like RNA tracks: 73
+ col        target_id                                           target_label kind
+5458     ENCFF980ZHM+                                               RNA:K562  RNA
+5459     ENCFF132DVY+                                               RNA:K562  RNA
+5460     ENCFF919EXM+                                               RNA:K562  RNA
+5461     ENCFF552CYS+                                               RNA:K562  RNA
+5462      ENCFF991BRF                                               RNA:K562  RNA
+5463      ENCFF769VLM                                               RNA:K562  RNA
+5505     ENCFF516KYO+                            RNA:K562 cytosolic fraction  RNA
+5522     ENCFF119ONM+                                               RNA:K562  RNA
+5532     ENCFF669RVI+                              RNA:K562 nuclear fraction  RNA
+5534     ENCFF124AUH+                            RNA:K562 chromatin fraction  RNA
+5535     ENCFF886LMB+                            RNA:K562 nucleolus fraction  RNA
+5536     ENCFF246QLC+                        RNA:K562 nucleoplasmic fraction  RNA
+5571      ENCFF982YRZ     RNA:K562 treated with Interferon gamma for 6 hours  RNA
+5572      ENCFF594PZM  RNA:K562 treated with Interferon gamma for 30 minutes  RNA
+5573      ENCFF722OTS     RNA:K562 treated with interferon alpha for 6 hours  RNA
+5574      ENCFF311UQI  RNA:K562 treated with interferon alpha for 30 minutes  RNA
+5584      ENCFF860AKE                                               RNA:K562  RNA
+5594      ENCFF496WON        RNA:K562 treated with 100 nM GSK J4 for 4 hours  RNA
+5611     ENCFF933QBC+                             RNA:K562 membrane fraction  RNA
+5614     ENCFF444LLL+                              RNA:K562 nuclear fraction  RNA
+5627      ENCFF205IED           RNA:K562 treated with 5 uM MB-3 for 12 hours  RNA
+5632      ENCFF127NDE              RNA:K562 treated with 1% DMSO for 4 hours  RNA
+5654      ENCFF710BHJ             RNA:K562 treated with 1% DMSO for 24 hours  RNA
+5655      ENCFF689GBG     RNA:K562 treated with 10 nM Chaetocin for 24 hours  RNA
+5658      ENCFF876APW   RNA:K562 treated with 7.5 nM Vorinostat for 12 hours  RNA
+5662     ENCFF944XYT+                                               RNA:K562  RNA
+5666      ENCFF385SAC    RNA:K562 treated with 7.5 nM Vorinostat for 4 hours  RNA
+5667      ENCFF132EEP     RNA:K562 treated with 10 nM Chaetocin for 48 hours  RNA
+5671      ENCFF642WCG    RNA:K562 treated with 25 uM Galeterone for 24 hours  RNA
+5699      ENCFF219KLR           RNA:K562 treated with 5 uM MB-3 for 24 hours  RNA
+5701      ENCFF179DDD            RNA:K562 treated with 5 uM MB-3 for 4 hours  RNA
+5718      ENCFF574YPE            RNA:K562 treated with 5 uM JQ1 for 12 hours  RNA
+5726      ENCFF117CTU     RNA:K562 treated with 25 uM Galeterone for 4 hours  RNA
+5731      ENCFF057IIF    RNA:K562 treated with 10 nM Bortezomib for 48 hours  RNA
+5754      ENCFF583FIC          RNA:K562 treated with 10 uM AR-42 for 4 hours  RNA
+5773      ENCFF719RAL    RNA:K562 treated with 10 nM Bortezomib for 12 hours  RNA
+5785      ENCFF557CLI RNA:K562 treated with 7.5 nM Panobinostat for 48 hours  RNA
+5799      ENCFF206GMC    RNA:K562 treated with 25 uM Galeterone for 48 hours  RNA
+5812      ENCFF893RLE         RNA:K562 treated with 10 uM AR-42 for 12 hours  RNA
+5833      ENCFF856KPS             RNA:K562 treated with 5 uM JQ1 for 4 hours  RNA
+5839      ENCFF290WID           RNA:K562 treated with 5 uM MB-3 for 48 hours  RNA
+5845     ENCFF136ZVX+                            RNA:K562 cytosolic fraction  RNA
+5898      ENCFF436OWO          RNA:K562 treated with 50 uM C646 for 12 hours  RNA
+5922      ENCFF952UWM      RNA:K562 treated with 10 nM Chaetocin for 4 hours  RNA
+5939      ENCFF344YVW     RNA:K562 treated with 10 uM Crizotinib for 4 hours  RNA
+5945     ENCFF113MGH+                              RNA:K562 nuclear fraction  RNA
+5978      ENCFF047ADC     RNA:K562 treated with 10 nM Bortezomib for 4 hours  RNA
+6001     ENCFF199MXA+                RNA:K562 insoluble cytoplasmic fraction  RNA
+6003     ENCFF407ZDP+                             RNA:K562 membrane fraction  RNA
+6007      ENCFF065NBH             RNA:K562 treated with 1% DMSO for 12 hours  RNA
+6010     ENCFF585HTZ+                                               RNA:K562  RNA
+6028     ENCFF544ZDA+                                               RNA:K562  RNA
+6050      ENCFF940DUI     RNA:K562 treated with 10 nM Chaetocin for 12 hours  RNA
+6065      ENCFF082CYK         RNA:K562 treated with 10 uM AR-42 for 24 hours  RNA
+6069      ENCFF652PJM       RNA:K562 treated with 100 nM GSK J4 for 24 hours  RNA
+6073     ENCFF221JZR+                RNA:K562 insoluble cytoplasmic fraction  RNA
+6103      ENCFF817LFV RNA:K562 treated with 7.5 nM Panobinostat for 24 hours  RNA
+6106      ENCFF274KQB    RNA:K562 treated with 10 uM Crizotinib for 12 hours  RNA
+6118      ENCFF988LZV           RNA:K562 treated with 50 uM C646 for 4 hours  RNA
+6141     ENCFF312ZLI+                                               RNA:K562  RNA
+6152      ENCFF466NAU       RNA:K562 treated with 100 nM GSK J4 for 12 hours  RNA
+6153      ENCFF347OLB            RNA:K562 treated with 5 uM JQ1 for 24 hours  RNA
+6181      ENCFF685VLN   RNA:K562 treated with 7.5 nM Vorinostat for 24 hours  RNA
+6196     ENCFF837YDW+                            RNA:K562 cytosolic fraction  RNA
+6204      ENCFF289VET  RNA:K562 treated with 7.5 nM Panobinostat for 4 hours  RNA
+6213      ENCFF432UNL          RNA:K562 treated with 50 uM C646 for 24 hours  RNA
+6215     ENCFF278EZT+                                               RNA:K562  RNA
+6231      ENCFF496TSR    RNA:K562 treated with 10 nM Bortezomib for 24 hours  RNA
+6259      ENCFF346AHI    RNA:K562 treated with 25 uM Galeterone for 12 hours  RNA
+6261      ENCFF333PSK   RNA:K562 treated with 7.5 nM Vorinostat for 48 hours  RNA
+6265      ENCFF366NWQ RNA:K562 treated with 7.5 nM Panobinostat for 12 hours  RNA
+6311 K-562-SM-5KM2I.1                                        RNA:bone_marrow  RNA
+6312 K-562-SM-7LG4B.1                                        RNA:bone_marrow  RNA
+
+saved decomposition/data/interim/score_tracks.csv

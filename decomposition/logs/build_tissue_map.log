@@ -1,0 +1,42 @@
+sub-tissue map: 42 rows for 31 groups
+group
+adipose_tissue     Adipose - Subcutaneous x 0.67; Adipose - Visce...
+adrenal_gland                                   Adrenal Gland x 1.00
+bladder                                               Bladder x 1.00
+blood              Cells - EBV-transformed lymphocytes x 0.33; Wh...
+blood_vessel           Artery - Aorta x 0.33; Artery - Tibial x 0.67
+bone_marrow                  Cells - Leukemia cell line (CML) x 1.00
+brain              Brain - Amygdala x 0.33; Brain - Cerebellar He...
+breast                                Breast - Mammary Tissue x 1.00
+cervix_uteri       Cervix - Ectocervix x 0.33; Cervix - Endocervi...
+colon              Colon - Sigmoid x 0.67; Colon - Transverse x 0.33
+esophagus          Esophagus - Gastroesophageal Junction x 0.67; ...
+fallopian_tube                                 Fallopian Tube x 1.00
+heart              Heart - Atrial Appendage x 0.33; Heart - Left ...
+kidney                                        Kidney - Cortex x 1.00
+liver                                                   Liver x 1.00
+lung                                                     Lung x 1.00
+muscle                                      Muscle - Skeletal x 1.00
+nerve                                          Nerve - Tibial x 1.00
+ovary                                                   Ovary x 1.00
+pancreas                                             Pancreas x 1.00
+pituitary                                           Pituitary x 1.00
+prostate                                             Prostate x 1.00
+salivary_gland                           Minor Salivary Gland x 1.00
+skin               Cells - Cultured fibroblasts x 0.33; Skin - No...
+small_intestine              Small Intestine - Terminal Ileum x 1.00
+spleen                                                 Spleen x 1.00
+stomach                                               Stomach x 1.00
+testis                                                 Testis x 1.00
+thyroid                                               Thyroid x 1.00
+uterus                                                 Uterus x 1.00
+vagina                                                 Vagina x 1.00
+
+v8: 56,200 genes x 30 groups -> decomposition/data/interim/expr_groups_v8.csv.gz
+
+v10: 59,033 genes x 30 groups -> decomposition/data/interim/expr_groups_v10.csv.gz
+
+genes in both releases: 55,241
+v8 vs v10, rank agreement across genes per group: min 0.976 (cervix_uteri), median 0.991
+
+saved decomposition/data/frozen/tissue_map.csv

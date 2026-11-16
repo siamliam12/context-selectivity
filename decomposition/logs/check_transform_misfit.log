@@ -1,0 +1,13 @@
+read and saved decomposition/data/interim/transform_sample.npz
+
+SNP tracks with R2 >= 0.999: straight line 86, line without the 20 worst SNPs 89, curve 86 (of 89)
+
+the 5 worst tracks:
+ col        group  r2_line  r2_line_without_20  r2_curve  resid_sd  max_abs_resid  worst_raw  worst_raw_percentile
+6380       uterus  0.99596             1.00000   0.99596   0.05925        7.86831    1.89160              99.96661
+6372      stomach  0.99892             1.00000   0.99892   0.02993        3.98052    0.98047              99.77185
+6351     pancreas  0.99893             1.00000   0.99893   0.02978        3.98229    0.75293              99.83306
+6303      bladder  0.99903             1.00000   0.99903   0.02986        3.98261    0.93896              99.79411
+6321 cervix_uteri  0.99967             1.00000   0.99967   0.01705        1.99688    0.48193              99.19871
+
+saved decomposition/results/c3/transform_misfit.csv

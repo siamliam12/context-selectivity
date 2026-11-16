@@ -61,3 +61,6 @@ Thumbs.db
 .idea/
 *.swp
 *~**/data/**/*.parquet
+**/data/**/*.npz
+**/data/raw/gtex/
+**/data/raw/encode/

@@ -1,0 +1,11 @@
+sub-tissues behind our 89 tracks: 42
+
+v8: 56,200 genes, 54 tissues
+  our sub-tissues missing from this table: ['Cells - Leukemia cell line (CML)']
+  first gene IDs: ['ENSG00000223972.5', 'ENSG00000227232.5', 'ENSG00000278267.1']
+
+v10: 59,033 genes, 68 tissues
+  our sub-tissues missing from this table: ['Adipose - Subcutaneous', 'Adipose - Visceral (Omentum)', 'Adrenal Gland', 'Artery - Aorta', 'Artery - Tibial', 'Brain - Amygdala', 'Brain - Cerebellar Hemisphere', 'Brain - Cortex', 'Breast - Mammary Tissue', 'Cells - Cultured fibroblasts', 'Cells - EBV-transformed lymphocytes', 'Cells - Leukemia cell line (CML)', 'Cervix - Ectocervix', 'Cervix - Endocervix', 'Colon - Sigmoid', 'Colon - Transverse', 'Esophagus - Gastroesophageal Junction', 'Esophagus - Mucosa', 'Fallopian Tube', 'Heart - Atrial Appendage', 'Heart - Left Ventricle', 'Kidney - Cortex', 'Minor Salivary Gland', 'Muscle - Skeletal', 'Nerve - Tibial', 'Skin - Not Sun Exposed (Suprapubic)', 'Skin - Sun Exposed (Lower leg)', 'Small Intestine - Terminal Ileum', 'Whole Blood']
+  first gene IDs: ['ENSG00000223972.5', 'ENSG00000227232.5', 'ENSG00000278267.1']
+
+gene list: 56,200 genes on 25 sequences, e.g. ['chr1', 'chr10', 'chr11', 'chr12']

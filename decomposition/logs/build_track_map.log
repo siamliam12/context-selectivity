@@ -1,0 +1,19 @@
+tracks: 89, groups: 31
+groups by number of tracks: {2: 4, 3: 27}
+groups with 2 tracks: ['bone_marrow', 'nerve', 'testis', 'uterus']
+
+targets_human.txt: 7,611 rows; columns: ['identifier', 'file', 'clip', 'clip_soft', 'scale', 'sum_stat', 'strand_pair', 'description']
+tracks by number of model outputs found: {1: 89}
+ col                  target_id          group model_index        description
+6296 GTEX-132QS-2526-SM-62LFJ.1 adipose_tissue        7522 RNA:adipose_tissue
+6297 GTEX-1GMR3-0826-SM-9WYT4.1 adipose_tissue        7523 RNA:adipose_tissue
+6298 GTEX-1HSEH-0226-SM-ACKVV.1 adipose_tissue        7524 RNA:adipose_tissue
+6299 GTEX-11GSP-0326-SM-5A5KW.1  adrenal_gland        7525  RNA:adrenal_gland
+6300 GTEX-13PVR-0226-SM-5RQJI.1  adrenal_gland        7526  RNA:adrenal_gland
+6301 GTEX-14PKV-0726-SM-686ZF.1  adrenal_gland        7527  RNA:adrenal_gland
+ col        target_id       group model_index     description
+6311 K-562-SM-5KM2I.1 bone_marrow        7537 RNA:bone_marrow
+6312 K-562-SM-7LG4B.1 bone_marrow        7538 RNA:bone_marrow
+
+the 31 groups: adipose_tissue, adrenal_gland, bladder, blood, blood_vessel, bone_marrow, brain, breast, cervix_uteri, colon, esophagus, fallopian_tube, heart, kidney, liver, lung, muscle, nerve, ovary, pancreas, pituitary, prostate, salivary_gland, skin, small_intestine, spleen, stomach, testis, thyroid, uterus, vagina
+saved decomposition/data/frozen/track_map.csv: 89 tracks

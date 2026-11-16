@@ -1,0 +1,21 @@
+the 89 tracks are score columns 6296 to 6384; side by side: True
+random rows: 20,000 (seed 20261111); SNPs 17,971, indels 2,029
+self-tests passed; scores read for both files
+
+snp: R2 min 0.99596, median 0.99999; tracks with R2 >= 0.999: 86 of 89; Spearman min 0.98162
+
+indel: R2 min 0.54153, median 0.71490; tracks with R2 >= 0.999: 0 of 89; Spearman min 0.98619
+
+slope a, SNP vs indel (median): 8.0346 vs 1.1004
+intercept b, SNP vs indel (median): -0.2608 vs -0.5654
+standardized scores in this sample: mean 0.004, sd 0.916 (median over tracks)
+
+worst 5 tracks by SNP R2:
+ col        group   r2_snp  r2_indel     a_snp  a_indel
+6380       uterus 0.995955  0.669324  8.525035 1.236217
+6372      stomach 0.998922  0.725831  8.393825 1.123993
+6351     pancreas 0.998926  0.689977 10.921371 1.528707
+6303      bladder 0.999025  0.717680  8.790601 1.190182
+6321 cervix_uteri 0.999674  0.784227  8.839952 1.016920
+
+saved decomposition/results/c3/transform_fit.csv

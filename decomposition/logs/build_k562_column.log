@@ -1,0 +1,19 @@
+16 files; 58,780 genes
+replicate agreement within each experiment (rank correlation):
+  ENCSR000AEM 0.924, ENCSR000AEO 0.930, ENCSR000AEP 0.900, ENCSR000AEQ 0.920, ENCSR000CPH 0.926, ENCSR000EYO 0.898, ENCSR545DKY 0.925, ENCSR637VLS 0.905
+agreement between experiments: min 0.811, median 0.866
+saved decomposition/data/interim/k562_encode_tpm.csv.gz
+
+top 10 K562 genes (TPM): MT-ATP8 16417, HBG2 16036, MT-CO2 15748, MT-CO3 12908, MT-CO1 11156, MT-RNR2 10353, EEF1A1 9516, RPS18 8726, ENSG00000284931 8718, MT-ATP6 8678
+  HBG1: [np.float64(5688.5)]
+  HBG2: [np.float64(16036.1)]
+  GATA1: [np.float64(126.8)]
+  TAL1: [np.float64(37.0)]
+  ALB: [np.float64(0.2)]
+  PTPRC: [np.float64(45.1)]
+
+v8: K562 value found for 99.4% of genes; most similar GTEx groups: blood 0.788, adrenal_gland 0.778, skin 0.773
+saved decomposition/data/interim/expr_groups_v8_31.csv.gz: 31 groups
+
+v10: K562 value found for 94.9% of genes; most similar GTEx groups: blood 0.787, adrenal_gland 0.777, skin 0.772
+saved decomposition/data/interim/expr_groups_v10_31.csv.gz: 31 groups
