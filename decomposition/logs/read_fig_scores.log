@@ -1,0 +1,4 @@
+variants: hg19 position check passed for 5,704 variants
+scores read: 5,704 variants x 89 tracks; missing values: 0
+score range: -0.394 to 289.000
+saved decomposition/data/interim/fig_scores_long.parquet: 507,656 rows

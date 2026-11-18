@@ -1,0 +1,4 @@
+cells: python 465, sql 465, in both 465
+variants dropped for zero spread: 0
+largest difference in median Z: 4.94e-15
+variant counts identical: True
