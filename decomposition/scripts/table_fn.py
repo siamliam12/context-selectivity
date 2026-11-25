@@ -1,4 +1,4 @@
-# The table function (D1): builds every trait-by-tissue table in Parts D and E.
+# The table function (D1; mean added by Amendment 1): builds every trait-by-tissue table in Parts D and E.
 import pandas as pd
 
 def group_means(long):
@@ -13,14 +13,14 @@ def variant_z(gm, ddof=0):
     z = gm[keep].sub(mu[keep], axis=0).div(sd[keep], axis=0)
     return z, int((~keep).sum())
 
-def trait_table(z, membership):
-    """membership = rows of (variant, label); a variant may sit under several traits.
-    Returns label, group, median_z, n_variants."""
+def trait_table(z, membership, agg="mean"):
+    """membership = rows of (variant, label). agg = 'mean' (Amendment 1) or 'median' (the caption's wording).
+    Returns label, group, trait_z, n_variants."""
     zl = z.stack().rename("z").reset_index()
     m = membership[["variant", "label"]].merge(zl, on="variant")
     return (m.groupby(["label", "group"])["z"]
-             .agg(median_z="median", n_variants="size").reset_index())
+             .agg(trait_z=agg, n_variants="size").reset_index())
 
-def build_table(long, membership, ddof=0):
+def build_table(long, membership, ddof=0, agg="mean"):
     z, n_dropped = variant_z(group_means(long), ddof)
-    return trait_table(z, membership), n_dropped
+    return trait_table(z, membership, agg), n_dropped
