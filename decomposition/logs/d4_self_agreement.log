@@ -1,0 +1,22 @@
+variants outside every block: 0 (each becomes its own unit)
+variant-trait rows: 3,512; zero-spread variants dropped: 0
+units per trait: {'Age at Menarche': 68, 'BMD': 244, 'Balding': 101, 'Cholesterol': 66, 'Chronotype': 20, 'Diastolic BP': 96, 'Eczema': 51, 'FEV:FVC': 145, 'FVC': 41, 'HLSRC': 136, 'Hair pigment': 86, 'Height': 439, 'MC': 195, 'MCH': 167, 'MPV': 189}
+
+self-agreement at half size: median [95% interval]
+                 units            overlap        profile_r_SB
+trait                                                        
+Age at Menarche     68  0.25 [0.00, 1.00]   0.80 [0.46, 0.93]
+BMD                244  0.00 [0.00, 1.00]   0.95 [0.88, 0.98]
+Balding            101  0.60 [0.25, 1.00]   0.93 [0.83, 0.98]
+Cholesterol         66  1.00 [0.33, 1.00]   0.97 [0.92, 0.99]
+Chronotype          20  0.00 [0.00, 0.50]  0.52 [-0.16, 0.83]
+Diastolic BP        96  0.00 [0.00, 1.00]   0.87 [0.70, 0.95]
+Eczema              51  1.00 [0.33, 1.00]   0.89 [0.71, 0.96]
+FEV:FVC            145  0.00 [0.00, 1.00]   0.93 [0.83, 0.97]
+FVC                 41  0.00 [0.00, 0.50]  0.51 [-0.76, 0.82]
+HLSRC              136  0.50 [0.00, 1.00]   0.84 [0.65, 0.93]
+Hair pigment        86  0.50 [0.00, 1.00]   0.88 [0.72, 0.96]
+Height             439  1.00 [1.00, 1.00]   0.95 [0.88, 0.98]
+MC                 195  1.00 [0.50, 1.00]   0.98 [0.95, 0.99]
+MCH                167  0.50 [0.50, 1.00]   0.93 [0.84, 0.97]
+MPV                189  0.50 [0.00, 0.50]   0.92 [0.82, 0.97]
