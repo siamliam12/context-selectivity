@@ -1,0 +1,8 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+                             try set     scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+                mean, set A 0.25   A         dm    0/4 3/17  15/15     0.163               2.56             1.31      1.70                0.80
+mean, cut-off 0.25 (best so far)   A         dm    0/4 3/17  15/15     0.163               2.56             1.31      1.70                0.80
+                mean, set A 0.25   A    std_snp    0/4 3/17  14/15     0.177               2.57             1.30      1.69                0.87
+                mean, set A 0.25   A logstd_all    0/4 2/17  11/15     0.190               2.53             1.18      1.74                0.79
+                mean, set A 0.25   A    std_all    1/4 2/17  12/15     0.195               2.42             1.15      1.70                0.76
+                mean, set A 0.25   A    log_raw    1/4 1/17   0/15     0.446               2.40             1.54      1.42                0.08

@@ -1,0 +1,45 @@
+frozen files match their fingerprints
+
+set  sd  variants  dropped values_hit dots_hit traits_match    verdict
+  A   n      3160        0        0/4     2/17         9/15 Unresolved
+  A n-1      3160        0        0/4     2/17         9/15 Unresolved
+  B   n      5704        0        0/4     3/17         6/15 Unresolved
+  B n-1      5704        0        0/4     2/17         6/15 Unresolved
+  C   n      1158        0        0/4     2/17        10/15 Unresolved
+  C n-1      1158        0        0/4     2/17        10/15 Unresolved
+
+GATE 1: Unresolved (set A, SD by n)
+
+four printed values (ours vs printed):
+  Cholesterol   liver         2.845 vs 2.42  MISS
+  MCH           bone_marrow   0.693 vs 1.08  MISS
+  MC            blood         1.865 vs 1.48  MISS
+  Diastolic BP  heart         0.568 vs 0.59  MISS
+
+17 figure dots (ours vs figure reading):
+  HLSRC            bone_marrow   0.287 vs 0.82  MISS
+  MPV              blood         0.193 vs 0.89  MISS
+  MPV              bone_marrow   0.261 vs 0.78  MISS
+  MPV              spleen        0.102 vs 0.50  MISS
+  Cholesterol      liver         2.845 vs 2.42  MISS
+  MCH              bone_marrow   0.693 vs 1.08  MISS
+  MC               blood         1.865 vs 1.48  MISS
+  MC               spleen        0.682 vs 0.83  MISS
+  MC               lung          0.513 vs 0.50  ok
+  Balding          blood         0.338 vs 0.71  MISS
+  Balding          muscle        0.456 vs 0.63  MISS
+  Chronotype       brain         0.167 vs 0.79  MISS
+  Hair pigment     blood         0.090 vs 0.72  MISS
+  Eczema           blood         1.570 vs 1.29  MISS
+  Eczema           spleen        0.693 vs 0.60  MISS
+  Age at Menarche  brain         0.219 vs 0.70  MISS
+  Diastolic BP     heart         0.568 vs 0.59  ok
+
+traits whose labelled tissues differ: [('Age at Menarche', [], ['brain']), ('Balding', [], ['blood', 'muscle']), ('Chronotype', [], ['brain']), ('HLSRC', [], ['bone_marrow']), ('Hair pigment', [], ['blood']), ('MPV', [], ['blood', 'bone_marrow'])]
+
+text vs figure (text: HLSRC-bone marrow 0.78, MC-spleen 0.50):
+  HLSRC  bone_marrow   0.287
+  MPV    bone_marrow   0.261
+  MC     spleen        0.682
+  MPV    spleen        0.102
+  MC     lung          0.513

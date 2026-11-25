@@ -1,0 +1,55 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+                             try     set scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+mean, cut-off 0.25 (best so far)       A     dm    0/4 3/17  15/15     0.163               2.56             1.31      1.70                0.80
+                            mean     A01   dm01    1/4 4/17  14/15     0.203               1.74             1.03      1.47                0.49
+                            mean A01_snp   dm01    1/4 5/17  15/15     0.209               1.72             1.11      1.48                0.50
+                   mean + SD n-1     A01   dm01    0/4 3/17  14/15     0.214               1.72             1.01      1.45                0.48
+                   mean + SD n-1 A01_snp   dm01    1/4 4/17  14/15     0.219               1.70             1.10      1.45                0.49
+            mean + Z over tracks     A01   dm01    1/4 1/17  12/15     0.276               1.61             1.06      1.22                0.43
+            mean + Z over tracks A01_snp   dm01    0/4 0/17  12/15     0.280               1.59             1.14      1.22                0.45
+                            mean     B01   dm01    0/4 1/17  12/15     0.306               1.64             0.70      1.19                0.49
+                            mean B01_snp   dm01    0/4 1/17  11/15     0.309               1.61             0.73      1.18                0.50
+                   mean + SD n-1     B01   dm01    0/4 1/17  12/15     0.316               1.61             0.69      1.17                0.49
+                   mean + SD n-1 B01_snp   dm01    0/4 1/17  12/15     0.319               1.59             0.72      1.16                0.49
+            mean + Z over tracks     B01   dm01    0/4 1/17  10/15     0.370               1.52             0.71      0.99                0.44
+            mean + Z over tracks B01_snp   dm01    0/4 1/17  10/15     0.373               1.49             0.74      0.99                0.45
+                          median A01_snp   dm01    0/4 1/17   7/15     0.479               1.39             0.58      1.51                0.30
+                          median     A01   dm01    0/4 1/17   5/15     0.500               1.39             0.46      1.52                0.27
+                          median B01_snp   dm01    0/4 1/17   6/15     0.573               1.25             0.30      1.16                0.30
+                          median     B01   dm01    0/4 1/17   7/15     0.582               1.27             0.28      1.17                0.29
+          trait      tissue  figure  mean A 0.25  mean A 0.25 gap  mean A 0.1 SNPs  mean A 0.1 SNPs gap
+          HLSRC bone_marrow    0.82         0.83             0.01             0.71                -0.11
+            MPV       blood    0.89         0.61            -0.28             0.60                -0.29
+            MPV bone_marrow    0.78         0.69            -0.09             0.61                -0.17
+            MPV      spleen    0.50         0.39            -0.11             0.39                -0.11
+    Cholesterol       liver    2.42         2.56             0.14             1.72                -0.70
+            MCH bone_marrow    1.08         1.31             0.23             1.11                 0.03
+             MC       blood    1.48         1.70             0.22             1.48                -0.00
+             MC      spleen    0.83         0.88             0.05             0.72                -0.11
+             MC        lung    0.50         0.62             0.12             0.46                -0.04
+        Balding       blood    0.71         0.63            -0.08             0.56                -0.15
+        Balding      muscle    0.63         0.64             0.01             0.56                -0.07
+     Chronotype       brain    0.79         0.53            -0.26             0.74                -0.05
+   Hair pigment       blood    0.72         0.49            -0.23             0.52                -0.20
+         Eczema       blood    1.29         1.42             0.13             1.17                -0.12
+         Eczema      spleen    0.60         0.76             0.16             0.48                -0.12
+Age at Menarche       brain    0.70         0.64            -0.06             0.70                -0.00
+   Diastolic BP       heart    0.59         0.80             0.21             0.50                -0.09
+
+spread of each trait's unlabelled tissues (min to max), to compare with the grey dots in the figure:
+          trait   mean A 0.25 mean A 0.1 SNPs
+Age at Menarche -0.36 to 0.38   -0.26 to 0.24
+            BMD -0.29 to 0.39   -0.32 to 0.38
+        Balding -0.43 to 0.45   -0.34 to 0.31
+    Cholesterol -0.42 to 0.43   -0.40 to 0.31
+     Chronotype -0.59 to 0.42   -0.39 to 0.44
+   Diastolic BP -0.67 to 0.36   -0.48 to 0.30
+         Eczema -0.37 to 0.37   -0.32 to 0.27
+        FEV:FVC -0.46 to 0.40   -0.48 to 0.38
+            FVC -0.29 to 0.32   -0.38 to 0.29
+          HLSRC -0.21 to 0.41   -0.20 to 0.31
+   Hair pigment -0.30 to 0.39   -0.28 to 0.28
+         Height -0.24 to 0.26   -0.26 to 0.31
+             MC -0.50 to 0.16   -0.39 to 0.18
+            MCH -0.18 to 0.48   -0.17 to 0.42
+            MPV -0.33 to 0.27   -0.41 to 0.23

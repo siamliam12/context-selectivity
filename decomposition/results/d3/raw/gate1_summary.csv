@@ -1,0 +1,7 @@
+set,sd,variants,dropped,values_hit,dots_hit,traits_match,verdict
+A,n,3160,0,0/4,1/17,3/15,Unresolved
+A,n-1,3160,0,1/4,1/17,3/15,Unresolved
+B,n,5704,0,0/4,2/17,3/15,Unresolved
+B,n-1,5704,0,1/4,2/17,3/15,Unresolved
+C,n,1158,0,0/4,1/17,2/15,Unresolved
+C,n-1,1158,0,0/4,1/17,2/15,Unresolved

@@ -1,0 +1,35 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+                      try   set scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+  mean over credible sets  B_cs     dm    1/4 7/17  13/15     0.133               2.50             1.06      1.53                0.59
+  mean over credible sets B_fav     dm    1/4 4/17  12/15     0.142               2.38             0.99      1.56                0.60
+                     mean  B_cs     dm    2/4 7/17  12/15     0.144               2.41             1.06      1.50                0.56
+            mean + SD n-1  B_cs     dm    1/4 6/17  14/15     0.148               2.37             1.04      1.48                0.55
+                     mean B_fav     dm    2/4 6/17  12/15     0.153               2.38             0.96      1.49                0.58
+            mean + SD n-1 B_fav     dm    2/4 5/17  12/15     0.159               2.34             0.94      1.46                0.57
+median over credible sets  B_cs     dm    0/4 1/17   9/15     0.391               3.15             0.68      1.72                0.31
+
+mean, B in Sniff credible set: the 17 dots (ours vs figure)
+  HLSRC            bone_marrow    0.78 vs 0.82  gap -0.04
+  MPV              blood          0.58 vs 0.89  gap -0.31
+  MPV              bone_marrow    0.50 vs 0.78  gap -0.28
+  MPV              spleen         0.29 vs 0.50  gap -0.21
+  Cholesterol      liver          2.41 vs 2.42  gap -0.01
+  MCH              bone_marrow    1.06 vs 1.08  gap -0.02
+  MC               blood          1.50 vs 1.48  gap +0.02
+  MC               spleen         0.67 vs 0.83  gap -0.16
+  MC               lung           0.44 vs 0.50  gap -0.06
+  Balding          blood          0.70 vs 0.71  gap -0.01
+  Balding          muscle         0.88 vs 0.63  gap +0.25
+  Chronotype       brain          0.71 vs 0.79  gap -0.08
+  Hair pigment     blood          0.69 vs 0.72  gap -0.03
+  Eczema           blood          1.21 vs 1.29  gap -0.08
+  Eczema           spleen         0.74 vs 0.60  gap +0.14
+  Age at Menarche  brain          0.63 vs 0.70  gap -0.07
+  Diastolic BP     heart          0.56 vs 0.59  gap -0.03
+
+traits whose labels differ (ours above 0.5 / figure's):
+  Balding: ours ['blood', 'heart', 'liver', 'muscle'] | figure ['blood', 'muscle']
+  FEV:FVC: ours ['heart'] | figure []
+  FVC: ours ['liver'] | figure []
+  MC: ours ['blood', 'spleen'] | figure ['blood', 'lung', 'spleen']
+  MPV: ours ['blood'] | figure ['blood', 'bone_marrow', 'spleen']

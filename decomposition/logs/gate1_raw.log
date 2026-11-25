@@ -1,0 +1,45 @@
+frozen files match their fingerprints
+
+set  sd  variants  dropped values_hit dots_hit traits_match    verdict
+  A   n      3160        0        0/4     1/17         3/15 Unresolved
+  A n-1      3160        0        1/4     1/17         3/15 Unresolved
+  B   n      5704        0        0/4     2/17         3/15 Unresolved
+  B n-1      5704        0        1/4     2/17         3/15 Unresolved
+  C   n      1158        0        0/4     1/17         2/15 Unresolved
+  C n-1      1158        0        0/4     1/17         2/15 Unresolved
+
+GATE 1: Unresolved (set A, SD by n)
+
+four printed values (ours vs printed):
+  Cholesterol   liver         2.693 vs 2.42  MISS
+  MCH           bone_marrow   1.270 vs 1.08  MISS
+  MC            blood         1.523 vs 1.48  MISS
+  Diastolic BP  heart        -0.195 vs 0.59  MISS
+
+17 figure dots (ours vs figure reading):
+  HLSRC            bone_marrow   0.548 vs 0.82  MISS
+  MPV              blood         0.236 vs 0.89  MISS
+  MPV              bone_marrow   0.487 vs 0.78  MISS
+  MPV              spleen        0.448 vs 0.50  MISS
+  Cholesterol      liver         2.693 vs 2.42  MISS
+  MCH              bone_marrow   1.270 vs 1.08  MISS
+  MC               blood         1.523 vs 1.48  ok
+  MC               spleen        1.023 vs 0.83  MISS
+  MC               lung          0.644 vs 0.50  MISS
+  Balding          blood        -0.391 vs 0.71  MISS
+  Balding          muscle       -0.484 vs 0.63  MISS
+  Chronotype       brain         0.259 vs 0.79  MISS
+  Hair pigment     blood        -0.359 vs 0.72  MISS
+  Eczema           blood         1.478 vs 1.29  MISS
+  Eczema           spleen        1.026 vs 0.60  MISS
+  Age at Menarche  brain        -0.001 vs 0.70  MISS
+  Diastolic BP     heart        -0.195 vs 0.59  MISS
+
+traits whose labelled tissues differ: [('Age at Menarche', ['testis'], ['brain']), ('BMD', ['testis'], []), ('Balding', ['testis'], ['blood', 'muscle']), ('Chronotype', ['testis'], ['brain']), ('Diastolic BP', [], ['heart']), ('Eczema', ['testis'], []), ('FEV:FVC', ['testis'], []), ('FVC', ['testis'], []), ('Hair pigment', ['testis'], ['blood']), ('Height', ['testis'], []), ('MCH', ['testis'], []), ('MPV', [], ['blood'])]
+
+text vs figure (text: HLSRC-bone marrow 0.78, MC-spleen 0.50):
+  HLSRC  bone_marrow   0.548
+  MPV    bone_marrow   0.487
+  MC     spleen        1.023
+  MPV    spleen        0.448
+  MC     lung          0.644

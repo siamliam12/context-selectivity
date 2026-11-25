@@ -1,0 +1,8 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+           try scores  variants values dots traits  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+A, cut-off 0.5     dm       859    0/4 0/17   7/15               3.74             0.74      2.50                0.13
+B, cut-off 0.5     dm      1425    0/4 2/17   7/15               2.67             0.23      1.89                0.21
+C, cut-off 0.5     dm       299    0/4 1/17   6/15               4.52             0.74      2.41                0.15
+A, cut-off 0.5    raw       859    0/4 2/17   3/15               3.64             1.05      2.10               -0.20
+B, cut-off 0.5    raw      1425    0/4 0/17   4/15               2.66             0.69      1.12               -0.33
+C, cut-off 0.5    raw       299    0/4 1/17   3/15               4.54             1.00      1.98               -0.05

@@ -7,8 +7,10 @@ from coord_check import check_table
 
 V = "decomposition/data/frozen/variants.csv"
 TM = "decomposition/data/frozen/track_map.csv"
-SRC = "seqnn-share/sniff/borzoi_veps/scores_indel_snp_distmatched.h5"
-OUT = "decomposition/data/interim/fig_scores_long.parquet"
+import sys
+WHICH = sys.argv[1] if len(sys.argv) > 1 else "dm"
+SRC = "seqnn-share/sniff/borzoi_veps/" + ("scores.h5" if WHICH == "raw" else "scores_indel_snp_distmatched.h5")
+OUT = f"decomposition/data/interim/fig_scores_long{'' if WHICH == 'dm' else '_' + WHICH}.parquet"
 
 v = pd.read_csv(V)
 v["score_chr"] = "chr" + v["CHR"].astype(str)

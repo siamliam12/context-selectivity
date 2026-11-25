@@ -1,0 +1,14 @@
+  0/330 files read
+  30/330 files read
+  60/330 files read
+  90/330 files read
+  120/330 files read
+  150/330 files read
+  180/330 files read
+  210/330 files read
+  240/330 files read
+  270/330 files read
+  300/330 files read
+rows also in the C1 table: 5,830 (should be 5,830)
+Sniff flag agrees: 1.0000, baseline flag agrees: 1.0000
+saved decomposition/data/interim/sets_cutoff01_cs.csv: 22,348 rows

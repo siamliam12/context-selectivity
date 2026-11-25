@@ -1,0 +1,20 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+                  try   set scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+mean + no bone marrow     A     dm    0/4 1/17  11/15     0.154               2.55              NaN      1.73                0.78
+        mean + SD n-1     A     dm    0/4 3/17  15/15     0.158               2.52             1.29      1.68                0.78
+                 mean     A     dm    0/4 3/17  15/15     0.163               2.56             1.31      1.70                0.80
+ mean + median tracks     A     dm    0/4 4/17  13/15     0.169               2.56             1.34      1.68                0.74
+mean + no bone marrow     B     dm    0/4 1/17  10/15     0.172               2.21              NaN      1.39                0.68
+ mean + Z over tracks     A     dm    0/4 2/17  13/15     0.178               2.35             1.36      1.42                0.68
+     mean + SNPs only A_snp     dm    0/4 4/17  15/15     0.180               2.63             1.48      1.70                0.73
+mean + no bone marrow     C     dm    0/4 1/17  11/15     0.181               2.78              NaN      1.70                0.76
+     mean + SNPs only B_snp     dm    0/4 0/17  13/15     0.182               2.29             1.01      1.32                0.66
+                 mean     B     dm    0/4 1/17  13/15     0.192               2.21             0.94      1.34                0.70
+        mean + SD n-1     B     dm    0/4 1/17  13/15     0.201               2.17             0.92      1.32                0.68
+ mean + median tracks     B     dm    0/4 2/17  12/15     0.208               2.23             0.97      1.31                0.64
+ mean + Z over tracks     B     dm    1/4 2/17  12/15     0.255               2.04             0.95      1.13                0.60
+        mean + SD n-1     C     dm    0/4 2/17  13/15     0.276               2.74             1.66      1.64                0.77
+                 mean     C     dm    0/4 2/17  13/15     0.289               2.79             1.69      1.67                0.79
+ mean + Z over tracks     C     dm    0/4 2/17  13/15     0.291               2.56             1.72      1.41                0.67
+     mean + SNPs only C_snp     dm    0/4 0/17  11/15     0.301               2.67             1.75      1.68                0.80
+ mean + median tracks     C     dm    0/4 2/17  13/15     0.307               2.83             1.71      1.64                0.76

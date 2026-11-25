@@ -1,0 +1,16 @@
+  0/330 files read
+  30/330 files read
+  60/330 files read
+  90/330 files read
+  120/330 files read
+  150/330 files read
+  180/330 files read
+  210/330 files read
+  240/330 files read
+  270/330 files read
+  300/330 files read
+cut-off 0.1: 11,644 promoted, 10,055 demoted (unique variants)
+cut-off 0.25: 3,160 promoted, 2,579 demoted (unique variants)
+paper:      0.1 -> 11,644 promoted, 10,055 demoted; 0.25 -> 3,160 and 2,579
+score rows found for 21,404 of 21,406 variants
+saved decomposition/data/interim/sets_cutoff01.csv and decomposition/data/interim/fig_scores_long_01.parquet

@@ -1,0 +1,13 @@
+set,sd,variants,dropped,values_hit,dots_hit,traits_match,verdict,attempt
+A,n,3160,0,0/4,2/17,9/15,Unresolved,dm
+A,n-1,3160,0,0/4,2/17,9/15,Unresolved,dm
+B,n,5704,0,0/4,3/17,6/15,Unresolved,dm
+B,n-1,5704,0,0/4,2/17,6/15,Unresolved,dm
+C,n,1158,0,0/4,2/17,10/15,Unresolved,dm
+C,n-1,1158,0,0/4,2/17,10/15,Unresolved,dm
+A,n,3160,0,0/4,1/17,3/15,Unresolved,raw
+A,n-1,3160,0,1/4,1/17,3/15,Unresolved,raw
+B,n,5704,0,0/4,2/17,3/15,Unresolved,raw
+B,n-1,5704,0,1/4,2/17,3/15,Unresolved,raw
+C,n,1158,0,0/4,1/17,2/15,Unresolved,raw
+C,n-1,1158,0,0/4,1/17,2/15,Unresolved,raw

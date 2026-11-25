@@ -1,0 +1,44 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+                    try      set scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+                   mean A0.15_cs   dm01    1/4 6/17  14/15     0.125               2.31             1.09      1.69                0.51
+mean over credible sets B0.25_cs   dm01    1/4 7/17  13/15     0.133               2.50             1.06      1.53                0.59
+                   mean  A0.2_cs   dm01    0/4 5/17  12/15     0.134               2.49             1.22      1.75                0.69
+mean over credible sets A0.15_cs   dm01    0/4 7/17  14/15     0.139               2.31             1.11      1.70                0.53
+mean over credible sets  A0.2_cs   dm01    0/4 3/17  12/15     0.139               2.50             1.22      1.77                0.67
+mean over credible sets  B0.2_cs   dm01    2/4 5/17  13/15     0.144               2.40             0.91      1.42                0.59
+                   mean B0.25_cs   dm01    2/4 7/17  12/15     0.144               2.41             1.06      1.50                0.56
+                   mean  A0.1_cs   dm01    0/4 3/17  14/15     0.160               2.04             0.90      1.56                0.49
+                   mean  B0.2_cs   dm01    0/4 2/17  13/15     0.163               2.31             0.90      1.45                0.54
+mean over credible sets  A0.1_cs   dm01    0/4 4/17  13/15     0.172               2.03             0.96      1.56                0.55
+                   mean B0.15_cs   dm01    0/4 2/17  13/15     0.203               2.09             0.85      1.38                0.49
+mean over credible sets B0.15_cs   dm01    0/4 2/17  13/15     0.203               2.14             0.87      1.37                0.50
+                   mean A0.25_cs   dm01    0/4 2/17  14/15     0.211               2.75             1.40      1.84                0.67
+mean over credible sets A0.25_cs   dm01    0/4 3/17  14/15     0.211               2.72             1.37      1.83                0.67
+mean over credible sets  B0.1_cs   dm01    0/4 0/17  12/15     0.249               1.92             0.72      1.31                0.50
+                   mean  B0.1_cs   dm01    0/4 1/17  11/15     0.272               1.79             0.70      1.33                0.48
+
+best try: mean, set A0.15_cs
+
+the 17 dots
+  HLSRC            bone_marrow    0.85 vs 0.82  gap +0.03
+  MPV              blood          0.69 vs 0.89  gap -0.20
+  MPV              bone_marrow    0.69 vs 0.78  gap -0.09
+  MPV              spleen         0.36 vs 0.50  gap -0.14
+  Cholesterol      liver          2.31 vs 2.42  gap -0.11
+  MCH              bone_marrow    1.09 vs 1.08  gap +0.01
+  MC               blood          1.69 vs 1.48  gap +0.21
+  MC               spleen         0.78 vs 0.83  gap -0.05
+  MC               lung           0.48 vs 0.50  gap -0.02
+  Balding          blood          0.74 vs 0.71  gap +0.03
+  Balding          muscle         0.77 vs 0.63  gap +0.14
+  Chronotype       brain          0.54 vs 0.79  gap -0.25
+  Hair pigment     blood          0.70 vs 0.72  gap -0.02
+  Eczema           blood          1.08 vs 1.29  gap -0.21
+  Eczema           spleen         0.67 vs 0.60  gap +0.07
+  Age at Menarche  brain          0.66 vs 0.70  gap -0.04
+  Diastolic BP     heart          0.51 vs 0.59  gap -0.08
+
+traits whose labels differ (ours above 0.5 / figure's):
+  Balding: ours ['blood', 'heart', 'liver', 'muscle'] | figure ['blood', 'muscle']
+  MC: ours ['blood', 'spleen'] | figure ['blood', 'lung', 'spleen']
+  MPV: ours ['blood', 'bone_marrow'] | figure ['blood', 'bone_marrow', 'spleen']

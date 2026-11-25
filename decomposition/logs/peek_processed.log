@@ -1,0 +1,127 @@
+88 files, 32.7 GB in total
+  1,283,765,834  seqnn-share/sniff/processed_borzoi_parquets/borzoi.1.annot.parquet
+            980  seqnn-share/sniff/processed_borzoi_parquets/borzoi.1.l2.M
+  1,311,186,378  seqnn-share/sniff/processed_borzoi_parquets/borzoi.1.l2.ldscore.parquet
+         12,161  seqnn-share/sniff/processed_borzoi_parquets/borzoi.1.l2.ldscore.parquet.log
+    811,144,430  seqnn-share/sniff/processed_borzoi_parquets/borzoi.10.annot.parquet
+            959  seqnn-share/sniff/processed_borzoi_parquets/borzoi.10.l2.M
+    839,747,486  seqnn-share/sniff/processed_borzoi_parquets/borzoi.10.l2.ldscore.parquet
+          7,186  seqnn-share/sniff/processed_borzoi_parquets/borzoi.10.l2.ldscore.parquet.log
+    750,846,300  seqnn-share/sniff/processed_borzoi_parquets/borzoi.11.annot.parquet
+            960  seqnn-share/sniff/processed_borzoi_parquets/borzoi.11.l2.M
+    775,834,151  seqnn-share/sniff/processed_borzoi_parquets/borzoi.11.l2.ldscore.parquet
+          6,697  seqnn-share/sniff/processed_borzoi_parquets/borzoi.11.l2.ldscore.parquet.log
+    775,828,598  seqnn-share/sniff/processed_borzoi_parquets/borzoi.12.annot.parquet
+            941  seqnn-share/sniff/processed_borzoi_parquets/borzoi.12.l2.M
+    804,297,980  seqnn-share/sniff/processed_borzoi_parquets/borzoi.12.l2.ldscore.parquet
+
+seqnn-share/sniff/processed_borzoi_parquets/borzoi.1.annot.parquet: 1,542,314 rows
+CHR: int64
+SNP: string
+BP: int64
+A1: string
+A2: string
+ATAC-PC0: double
+ATAC-PC1: double
+ATAC-PC2: double
+ATAC-PC3: double
+ATAC-PC4: double
+ATAC-PC5: double
+ATAC-PC6: double
+ATAC-PC7: double
+ATAC-PC8: double
+ATAC-PC9: double
+ATAC-PC10: double
+ATAC-PC11: double
+ATAC-PC12: double
+ATAC-PC13: double
+ATAC-PC14: double
+ATAC-PC15: double
+ATAC-PC16: double
+ATAC-PC17: double
+ATAC-PC18: double
+ATAC-PC19: double
+DNASE-PC0: double
+DNASE-PC1: double
+DNASE-PC2: double
+DNASE-PC3: double
+DNASE-PC4: double
+DNASE-PC5: double
+DNASE-PC6: double
+DNASE-PC7: double
+DNASE-PC8: double
+DNASE-PC9: double
+DNASE-PC10: double
+DNASE-PC11: double
+DNASE-PC12: double
+DNASE-PC13: double
+DNASE-PC14: double
+DNASE-PC15: double
+DNASE-PC16: double
+DNASE-PC17: double
+DNASE-PC18: double
+DNASE-PC19: double
+RNA-PC0: double
+RNA-PC1: double
+RNA-PC2: double
+RNA-PC3: double
+RNA-PC4: double
+RNA-PC5: double
+RNA-PC6: double
+RNA-PC7: double
+RNA-PC8: double
+RNA-PC9: double
+RNA-PC10: double
+RNA-PC11: double
+RNA-PC12: double
+RNA-PC13: double
+RNA-PC14: double
+RNA-PC15: double
+RNA-PC16: double
+RNA-PC17: double
+RNA-PC18: double
+RNA-PC19: double
+CHIP-PC0: double
+CHIP-PC1: double
+CHIP-PC2: double
+CHIP-PC3: double
+CHIP-PC4: double
+CHIP-PC5: double
+CHIP-PC6: double
+CHIP-PC7: double
+CHIP-PC8: double
+CHIP-PC9: double
+CHIP-PC10: double
+CHIP-PC11: double
+CHIP-PC12: double
+CHIP-PC13: double
+CHIP-PC14: double
+CHIP-PC15: double
+CHIP-PC16: double
+CHIP-PC17: double
+CHIP-PC18: double
+CHIP-PC19: double
+RNAGTEX-PC0: double
+RNAGTEX-PC1: double
+RNAGTEX-PC2: double
+RNAGTEX-PC3: double
+RNAGTEX-PC4: double
+RNAGTEX-PC5: double
+RNAGTEX-PC6: double
+RNAGTEX-PC7: double
+RNAGTEX-PC8: double
+RNAGTEX-PC9: double
+RNAGTEX-PC10: double
+RNAGTEX-PC11: double
+RNAGTEX-PC12: double
+CAGE-PC0: double
+CAGE-PC1: double
+CAGE-PC2: double
+CAGE-PC3: double
+CAGE-PC4: double
+CAGE-PC5: double
+CAGE-PC6: double
+CAGE-PC7: double
+CAGE-PC8: double
+-- schema metadata --
+pandas: '{"column_indexes": [{"field_name": null, "metadata": null, "name' + 12830

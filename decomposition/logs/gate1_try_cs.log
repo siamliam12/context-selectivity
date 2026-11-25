@@ -1,0 +1,12 @@
+printed values: Cholesterol-liver 2.42, MCH-bone_marrow 1.08, MC-blood 1.48, Diastolic BP-heart 0.59
+   try       set scores values dots traits  dot_dist  Cholesterol-liver  MCH-bone_marrow  MC-blood  Diastolic BP-heart
+  mean      B_cs     dm    2/4 7/17  12/15     0.144               2.41             1.06      1.50                0.56
+  mean         A     dm    0/4 3/17  15/15     0.163               2.56             1.31      1.70                0.80
+  mean      A_cs     dm    0/4 2/17  14/15     0.211               2.75             1.40      1.84                0.67
+median      B_cs     dm    0/4 0/17   8/15     0.415               3.03             0.53      1.69                0.34
+median         A     dm    0/4 2/17   9/15     0.418               2.85             0.69      1.86                0.57
+median      A_cs     dm    0/4 1/17  10/15     0.473               3.34             0.75      2.03                0.36
+  mean B_cs_only     dm    0/4 1/17   8/15     0.634               3.81             1.53      1.57                0.22
+  mean A_cs_only     dm    0/4 1/17   8/15     0.653               3.75             1.54      1.69                0.22
+median B_cs_only     dm    0/4 1/17   5/15     0.803               4.64             0.75      1.66               -0.59
+median A_cs_only     dm    0/4 2/17   7/15     0.837               4.52             0.75      2.03               -0.59
