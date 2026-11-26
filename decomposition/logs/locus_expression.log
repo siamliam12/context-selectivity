@@ -1,0 +1,3 @@
+without an hg38 position (dropped): {'d5': 50, 'fig': 5}
+genes in the window: median 4 | none: 3257
+saved decomposition/data/interim/locus_expression.parquet: 222,596 rows (55,649 variants x 2 versions x 2 gene modes)

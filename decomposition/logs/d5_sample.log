@@ -1,0 +1,3 @@
+D5 sample: hg19 position check passed for 50,000 variants
+liftover: {'ok': 49828, 'minus_strand': 122, 'unmapped': 28, 'other_chrom': 22}
+sample: 50,000 variants (4,891 indels); saved decomposition/data/interim/d5_sample_variants.csv and decomposition/data/interim/d5_scores_long.parquet
